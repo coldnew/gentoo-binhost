@@ -40,7 +40,7 @@ github upload can be easily configured.
 Enable gentoo binhost by adding the following lines.
 ```python
 # enable binhost
-PORTAGE_BINHOST_HEADER_URI="https://github.com/spreequalle/gentoo-binhost/releases/download/${CHOST}"
+PORTAGE_BINHOST_HEADER_URI="https://github.com/coldnew/gentoo-binhost/releases/download/${CHOST}"
 FEATURES="${FEATURES} buildpkg"
 USE="${USE} bindist"
 ACCEPT_LICENSE="-* @BINARY-REDISTRIBUTABLE"
@@ -71,7 +71,7 @@ Add the [/etc/portage/binhost/gh-upload.py](/etc/portage/binhost/gh-upload.py) s
 You need to create a [github access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) that is able to access repository and create releases.
 
 ```python
-gh_repo = 'spreequalle/gentoo-binhost'
+gh_repo = 'coldnew/gentoo-binhost'
 gh_token = '<your github access token>'
 ```
 
