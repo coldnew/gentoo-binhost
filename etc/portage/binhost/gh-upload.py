@@ -74,12 +74,35 @@ for asset in rel.get_assets():
 asset = rel.upload_asset(path=g_xpakPath, content_type='application/x-tar', name=g_xpak)
 print('GIT ' + g_xpak + ' upload')
 
+# https://github.com/PyGithub/PyGithub/issues/661
+def get_blob_content(repo, branch, path_name):
+    # first get the branch reference
+    ref = repo.get_git_ref(f'heads/{branch}')
+    # then get the tree
+    tree = repo.get_git_tree(ref.object.sha, recursive='/' in path_name).tree
+    # look for path in tree
+    sha = [x.sha for x in tree if x.path == path_name]
+    if not sha:
+        # well, not found..
+        return None
+    # we have sha
+    return repo.get_git_blob(sha[0])
+
+def get_contents(repo, branch, path_name):
+    try:
+        return repo.get_contents(path_name, ref=branch)
+    except GithubException:
+        return get_blob_content(repo, branch, path_name)
+
 # create/update Packages file
 try:
     commitMsg = g_pkgName + g_xpakStatus
     with open(g_manifestPath, 'r') as file:
         g_manifestFile = file.read()
-    cnt = repo.get_contents(g_manifest, ref=gh_branch)
+# https://docs.github.com/en/rest/reference/repos#get-repository-content
+# This API supports files up to 1 megabyte in size.
+    #cnt = repo.get_contents(g_manifest, ref=gh_branch)
+    cnt = get_contents(repo, gh_branch, g_manifest)
     cnt = repo.update_file(g_manifest, commitMsg, g_manifestFile, cnt.sha, branch=gh_branch, committer=gh_author)
 except UnknownObjectException:
     # create new file (Package)
