@@ -84,7 +84,7 @@ try:
 except UnknownObjectException:
     # create new file (Package)
     cnt = repo.create_file(g_manifest, commitMsg, g_manifestFile, branch=gh_branch, committer=gh_author)
-except:
-    print('error handling Manifest under: ' + g_manifestPath)
+except Exception as e:
+    print('error handling Manifest under: ' + g_manifestPath + ' due to ' + e)
     exit(1)
 print('GIT ' + g_manifest + ' commit')
