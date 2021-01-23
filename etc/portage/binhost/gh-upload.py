@@ -46,7 +46,7 @@ def getXpakDesc():
 
     return g_catDesc
 
-g = Github(gh_token)
+g = Github(gh_token, timeout = 80)
 repo = g.get_repo(gh_repo)
 
 # make sure we are working on an existent branch
@@ -91,7 +91,7 @@ try:
     else:
         repo.update_file(g_manifest, commitMsg, g_manifestFile, sha[0], branch=gh_branch, committer=gh_author)
 except Exception as e:
-    print('error handling Manifest under: ' + g_manifestPath)
+    print('error handling Manifest under: ' + g_manifestPath + ' Error: ' + str(e))
     exit(1)
 print('GIT ' + g_manifest + ' commit')
 
