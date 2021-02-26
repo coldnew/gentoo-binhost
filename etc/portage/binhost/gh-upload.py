@@ -1,6 +1,7 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
 
+# Copyright 2021 by Yen-Chin, Lee <coldnew.tw@gmail.com>
 # Copyright 2020 by generik at spreequalle.de. All rights reserved.
 # This file is released under the "JSON License Agreement". Please see the LICENSE
 # file that should have been included as part of this package.
@@ -20,12 +21,27 @@ gh_author = InputGitAuthor(os.environ['PORTAGE_BUILD_USER'], os.environ['PORTAGE
 
 g_pkgName = os.environ['PF'] # create a new github asset for every package
 g_cat = os.environ['CATEGORY']
+
+# detect pkgdir layout
+# https://wiki.gentoo.org/wiki/Binary_package_guide
+g_pkgdirLayoutVersion = 2 if os.environ['PORTAGE_FEATURES'].__contains__('binpkg-multi-instance') else 1
+
 g_xpakExt = 'tbz2' # XPAK extension (chanding compression scheme $BINPKG_COMPRESS does not change the extenstion)
 g_xpak = os.environ['PF'] + '.' + g_xpakExt
 g_xpakPath = os.environ['PKGDIR'] + '/' + g_cat + '/' + g_xpak
 g_xpakStatus = ' added.'
 g_manifest = 'Packages'
 g_manifestPath = os.environ['PKGDIR'] + '/' + g_manifest
+
+if g_pkgdirLayoutVersion == 2:
+    g_xpakExt = 'xpak'
+    g_xpakDir = os.environ['PKGDIR'] + '/' + g_cat + '/' + os.environ['PN']
+    g_buildID = str(len([name for name in os.listdir(g_xpakDir) if os.path.isfile(os.path.join(g_xpakDir,name))]))
+    g_xpak = os.environ['PF'] + '-' + g_buildID  + '.' + g_xpakExt
+    g_xpakPath = os.environ['PKGDIR'] + '/' + g_cat + '/' + os.environ['PN'] + '/' + g_xpak
+    # create new github release for every category
+    g_cat = os.environ['CATEGORY']  + '/' + os.environ['PN']
+    gh_relName = gh_branch + '/' + g_cat # create new github release for every category
 
 # FIXME figure out how to do this right, will fail on custom repos
 def getXpakDesc():
@@ -46,6 +62,28 @@ def getXpakDesc():
 
     return g_catDesc
 
+def getEbuildDesc():
+    """Get DESCRIPTION from ebuild"""
+    try:
+        g_catDesc = ''
+        # read description fron ebuild
+        ebuildPath = os.environ['EBUILD']
+        with open(ebuildPath, 'r', encoding='utf-8') as ebuildFile:
+            for line in ebuildFile:
+                line = line.strip()
+                try:
+                    key, value = line.split('=', 1)
+                except ValueError:
+                    continue
+                if key == 'DESCRIPTION':
+                    g_catDesc = value
+        # remove quotes at start and end
+        g_catDesc = g_catDesc.strip('\"')
+    except:
+        g_catDesc = ''
+
+    return g_catDesc
+
 g = Github(gh_token, timeout = 80)
 repo = g.get_repo(gh_repo)
 
@@ -61,8 +99,11 @@ try:
     rel = repo.get_release(gh_relName)
 # create new release (gentoo category), read category description from gentoo metadata
 except UnknownObjectException:
+    if g_pkgdirLayoutVersion == 2:
+        g_catDesc = getEbuildDesc()
+    else:
+        g_catDesc = getXpakDesc()
 
-    g_catDesc = getXpakDesc()
     rel = repo.create_git_release(gh_relName, g_cat, g_catDesc, target_commitish=gh_branch)
 
 # upload packages as an gitlab asset
@@ -71,6 +112,7 @@ for asset in rel.get_assets():
     if asset.name == g_xpak:
         g_xpakStatus = ' updated.'
         asset.delete_asset()
+
 asset = rel.upload_asset(path=g_xpakPath, content_type='application/x-tar', name=g_xpak)
 print('GIT ' + g_xpak + ' upload')
 
