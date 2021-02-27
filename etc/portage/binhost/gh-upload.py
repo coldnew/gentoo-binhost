@@ -36,7 +36,7 @@ g_manifestPath = os.environ['PKGDIR'] + '/' + g_manifest
 if g_pkgdirLayoutVersion == 2:
     g_xpakExt = 'xpak'
     g_xpakDir = os.environ['PKGDIR'] + '/' + g_cat + '/' + os.environ['PN']
-    g_buildID = str(len([name for name in os.listdir(g_xpakDir) if os.path.isfile(os.path.join(g_xpakDir,name))]))
+    g_buildID = str(len([name for name in os.listdir(g_xpakDir) if os.path.isfile(os.path.join(g_xpakDir,name)) and name.startswith(os.environ['PF'])]))
     g_xpak = os.environ['PF'] + '-' + g_buildID  + '.' + g_xpakExt
     g_xpakPath = os.environ['PKGDIR'] + '/' + g_cat + '/' + os.environ['PN'] + '/' + g_xpak
     # create new github release for every category
