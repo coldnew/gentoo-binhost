@@ -12,9 +12,9 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 777
+PACKAGES: 783
 PROFILE: default/linux/amd64/17.1/desktop/gnome/systemd
-TIMESTAMP: 1614393533
+TIMESTAMP: 1614394417
 URI: https://github.com/coldnew/gentoo-binhost/releases/download/x86_64-pc-linux-gnu
 USE: X a52 aac abi_x86_64 acl acpi ada_target_gnat_2018 alsa alsa_cards_ali5451 alsa_cards_als4000 alsa_cards_atiixp alsa_cards_atiixp-modem alsa_cards_bt87x alsa_cards_ca0106 alsa_cards_cmipci alsa_cards_emu10k1x alsa_cards_ens1370 alsa_cards_ens1371 alsa_cards_es1938 alsa_cards_es1968 alsa_cards_fm801 alsa_cards_hda-intel alsa_cards_intel8x0 alsa_cards_intel8x0m alsa_cards_maestro3 alsa_cards_trident alsa_cards_usb-audio alsa_cards_via82xx alsa_cards_via82xx-modem alsa_cards_ymfpci amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias avahi berkdb bindist bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk cli collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cuda cups dbus dri dts dvd dvdr eds egl elibc_glibc emacs emboss encode evo exif flac fortran gdbm geolocation gif gles gles2 gnome gnome-keyring gnome-online-accounts gpm gps gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 grub_platforms_pc gstreamer gtk gtk-doc gtk3 gui ibus iconv icu input_devices_libinput introspection ipv6 jpeg kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libsecret libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg mtp multilib nautilus ncurses networkmanager nls nptl nvenc office_implementation_libreoffice ogg opencl opengl openmp pam pango pcre pdf php_targets_php7-3 php_targets_php7-4 png policykit postgres_targets_postgres10 postgres_targets_postgres11 ppds pulseaudio python_single_target_python3_8 python_targets_python3_8 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qt5 readline ruby_targets_ruby26 samba sdl seccomp spell split-usr ssl startup-notification svg sysprof systemd tcpd tiff tracker truetype udev udisks unicode upower usb userland_GNU vaapi vala video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_nvidia video_cards_vesa video_cards_virgl video_cards_virtualbox video_cards_vmware vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid xwayland zeroconf zlib
 USERLAND: GNU
@@ -2839,6 +2839,26 @@ SIZE: 244994
 SLOT: 1.3
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1614389317
+REPO: gentoo
+
+BDEPEND: || ( dev-lang/go dev-lang/go-bootstrap )
+BUILD_ID: 1
+BUILD_TIME: 1614393728
+CPV: dev-lang/go-1.16
+DEFINED_PHASES: compile install postinst test
+EAPI: 7
+KEYWORDS: -* ~amd64 ~arm ~arm64 ~ppc64 ~s390 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x64-solaris
+LICENSE: BSD
+MD5: dc1999e5ca0cf1a9fb38d93b306e616d
+PATH: dev-lang/go/go-1.16-1.xpak
+RDEPEND: !<dev-go/go-tools-0_pre20150902
+REQUIRES: x86_64: libc.so.6 libpthread.so.0
+RESTRICT: strip
+SHA1: 263078928415a655bc5253898cb2951bec0d01c0
+SIZE: 122000046
+SLOT: 0/1.16
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1614393811
 REPO: gentoo
 
 BUILD_ID: 1
@@ -6227,6 +6247,28 @@ SIZE: 1697258
 SLOT: 5/5.15
 USE: X abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU vulkan
 MTIME: 1614353682
+REPO: gentoo
+
+BDEPEND: || ( dev-lang/python:3.8 dev-lang/python:3.7 ) || ( dev-lang/ruby:2.6 dev-lang/ruby:2.5 dev-lang/ruby:2.7 ) virtual/rubygems dev-lang/perl dev-util/gperf >=sys-devel/bison-2.4.3 sys-devel/flex virtual/pkgconfig dev-util/ninja dev-util/cmake
+BUILD_ID: 1
+BUILD_TIME: 1614394410
+CPV: dev-qt/qtwebkit-5.212.0_pre20200309-r1
+DEFINED_PHASES: compile configure install prepare pretend setup test
+DEPEND: dev-db/sqlite:3 dev-libs/icu:0/68.2= dev-libs/libxml2 dev-libs/libxslt >=dev-qt/qtcore-5.12.3:5 >=dev-qt/qtgui-5.12.3:5 >=dev-qt/qtnetwork-5.12.3:5 >=dev-qt/qtwidgets-5.12.3:5/5.15= media-libs/libpng:0/16= media-libs/woff2 virtual/jpeg:0 >=dev-qt/qtpositioning-5.12.3:5 dev-libs/glib:2 media-libs/gstreamer:1.0 media-libs/gst-plugins-bad:1.0 media-libs/gst-plugins-base:1.0 dev-libs/hyphen >=dev-qt/qtgui-5.12.3:5[-gles2-only] >=dev-qt/qtopengl-5.12.3:5[-gles2-only] >=dev-qt/qtprintsupport-5.12.3:5 x11-libs/libX11 x11-libs/libXcomposite x11-libs/libXrender
+EAPI: 7
+IUSE: geolocation gles2-only +gstreamer +hyphen +jit multimedia nsplugin opengl orientation +printsupport qml webp X
+KEYWORDS: amd64 arm arm64 ppc64 x86
+LICENSE: BSD LGPL-2+
+MD5: 1210adcf83f63f02e6f8b0ae81f99fa9
+PATH: dev-qt/qtwebkit/qtwebkit-5.212.0_pre20200309-r1-1.xpak
+PROVIDES: x86_64: libQt5WebKit.so.5 libQt5WebKitWidgets.so.5
+RDEPEND: dev-db/sqlite:3 dev-libs/icu:0/68.2= dev-libs/libxml2 dev-libs/libxslt >=dev-qt/qtcore-5.12.3:5 >=dev-qt/qtgui-5.12.3:5 >=dev-qt/qtnetwork-5.12.3:5 >=dev-qt/qtwidgets-5.12.3:5/5.15= media-libs/libpng:0/16= media-libs/woff2 virtual/jpeg:0 >=dev-qt/qtpositioning-5.12.3:5 dev-libs/glib:2 media-libs/gstreamer:1.0 media-libs/gst-plugins-bad:1.0 media-libs/gst-plugins-base:1.0 dev-libs/hyphen >=dev-qt/qtgui-5.12.3:5[-gles2-only] >=dev-qt/qtopengl-5.12.3:5[-gles2-only] >=dev-qt/qtprintsupport-5.12.3:5 x11-libs/libX11 x11-libs/libXcomposite x11-libs/libXrender
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libQt5Core.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5Positioning.so.5 libQt5PrintSupport.so.5 libQt5Widgets.so.5 libc.so.6 libdl.so.2 libgcc_s.so.1 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgstapp-1.0.so.0 libgstaudio-1.0.so.0 libgstbase-1.0.so.0 libgstfft-1.0.so.0 libgstpbutils-1.0.so.0 libgstreamer-1.0.so.0 libgsttag-1.0.so.0 libgstvideo-1.0.so.0 libhyphen.so.0 libicui18n.so.68 libicuuc.so.68 libjpeg.so.62 libm.so.6 libpng16.so.16 libpthread.so.0 libsqlite3.so.0 libstdc++.so.6 libwoff2dec.so.1.0.2 libxml2.so.2 libxslt.so.1 libz.so.1
+SHA1: 9bd3c76ee69b0cbd06a8e6c3daeec07d5b154605
+SIZE: 21678295
+SLOT: 5/5.212
+USE: X abi_x86_64 amd64 elibc_glibc geolocation gstreamer hyphen jit kernel_linux opengl printsupport userland_GNU
+MTIME: 1614394417
 REPO: gentoo
 
 BDEPEND: dev-lang/perl virtual/pkgconfig
@@ -9805,6 +9847,28 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux threads userland_GNU xml
 MTIME: 1614360376
 REPO: gentoo
 
+BDEPEND: || ( dev-lang/python:3.9[threads(+)] dev-lang/python:3.8[threads(+)] dev-lang/python:3.7[threads(+)] ) sys-apps/coreutils
+BUILD_ID: 1
+BUILD_TIME: 1614394400
+CPV: net-libs/nodejs-15.10.0
+DEFINED_PHASES: compile configure install prepare pretend setup test
+DEPEND: >=app-arch/brotli-1.0.9 >=dev-libs/libuv-1.40.0:0/1= >=net-dns/c-ares-1.17.0 >=net-libs/nghttp2-1.41.0 sys-libs/zlib >=dev-libs/openssl-1.1.1:0/1.1=
+EAPI: 7
+IUSE: cpu_flags_x86_sse2 debug doc +icu inspector +npm pax_kernel +snapshot +ssl system-icu +system-ssl systemtap test
+KEYWORDS: ~amd64 ~arm ~arm64 ~ppc64 ~x86 ~amd64-linux ~x64-macos
+LICENSE: Apache-1.1 Apache-2.0 BSD BSD-2 MIT
+MD5: 30dd9f9cdafcb8fa9b8d6210ecffa305
+PATH: net-libs/nodejs/nodejs-15.10.0-1.xpak
+RDEPEND: >=app-arch/brotli-1.0.9 >=dev-libs/libuv-1.40.0:0/1= >=net-dns/c-ares-1.17.0 >=net-libs/nghttp2-1.41.0 sys-libs/zlib >=dev-libs/openssl-1.1.1:0/1.1=
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libbrotlidec.so.1 libbrotlienc.so.1 libc.so.6 libcares.so.2 libcrypto.so.1.1 libdl.so.2 libgcc_s.so.1 libm.so.6 libnghttp2.so.14 libpthread.so.0 libssl.so.1.1 libstdc++.so.6 libz.so.1
+RESTRICT: test
+SHA1: a0283ffa44c33272e4e7a4f53f67a0386c5684fa
+SIZE: 25163338
+SLOT: 0/15
+USE: abi_x86_64 amd64 cpu_flags_x86_sse2 elibc_glibc icu inspector kernel_linux npm snapshot ssl system-ssl userland_GNU
+MTIME: 1614394410
+REPO: gentoo
+
 BDEPEND: >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.2-r1:1.16 >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 BUILD_ID: 1
 BUILD_TIME: 1614360718
@@ -10261,6 +10325,24 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1614393059
 REPO: gentoo
 
+BDEPEND: dev-util/ninja dev-util/cmake
+BUILD_ID: 1
+BUILD_TIME: 1614393225
+CPV: sci-electronics/kicad-packages3d-5.1.9
+DEFINED_PHASES: compile configure install prepare pretend setup test
+EAPI: 7
+IUSE: occ +oce
+KEYWORDS: ~amd64 ~arm64
+LICENSE: CC-BY-SA-4.0
+MD5: 675556ec2f4292f1644311307a8240c4
+PATH: sci-electronics/kicad-packages3d/kicad-packages3d-5.1.9-1.xpak
+RDEPEND: >=sci-electronics/kicad-5.1.0[-occ,oce]
+SHA1: f965205c55abaeb3a894690dc712855fed40aee0
+SIZE: 719293254
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux oce userland_GNU
+MTIME: 1614393619
+REPO: gentoo
+
 BDEPEND: >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.2-r1:1.16 >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 BUILD_ID: 1
 BUILD_TIME: 1614391934
@@ -10301,6 +10383,26 @@ SHA1: 85fa1fe85ce90e6ef9609399be543d52393d5a7d
 SIZE: 1087322
 USE: abi_x86_64 amd64 decode elibc_glibc kernel_linux python_single_target_python3_8 userland_GNU
 MTIME: 1614392054
+REPO: gentoo
+
+BDEPEND: >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.2-r1:1.16 >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+BUILD_ID: 1
+BUILD_TIME: 1614393697
+CPV: sci-electronics/systemc-2.3.4-r1
+DEFINED_PHASES: configure install prepare
+EAPI: 7
+IUSE: debug doc examples static-libs test
+KEYWORDS: ~amd64 ~arm ~arm64 ~x86
+LICENSE: Apache-2.0
+MD5: b64024ce36559a81e64d59fab6d45819
+PATH: sci-electronics/systemc/systemc-2.3.4-r1-1.xpak
+PROVIDES: x86_64: libsystemc-2.3.4.so
+REQUIRES: x86_64: libc.so.6 libgcc_s.so.1 libm.so.6 libpthread.so.0 libstdc++.so.6
+RESTRICT: test
+SHA1: f8ec69af574a4d6364c50a1b771b8ede643b682b
+SIZE: 881003
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1614393704
 REPO: gentoo
 
 BUILD_ID: 1
@@ -13528,6 +13630,26 @@ SIZE: 72490700
 SLOT: 0/86
 USE: abi_x86_64 amd64 clang dbus elibc_glibc geckodriver gmp-autoupdate hwaccel kernel_linux lto openh264 pgo pulseaudio screencast system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-webp userland_GNU wayland
 MTIME: 1614346355
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1614393668
+CPV: www-client/google-chrome-88.0.4324.182
+DEFINED_PHASES: install nofetch postinst postrm pretend setup unpack
+EAPI: 6
+IUSE: selinux kernel_linux +l10n_am +l10n_ar +l10n_bg +l10n_bn +l10n_ca +l10n_cs +l10n_da +l10n_de +l10n_el +l10n_en-GB +l10n_es +l10n_es-419 +l10n_et +l10n_fa +l10n_fi +l10n_fil +l10n_fr +l10n_gu +l10n_he +l10n_hi +l10n_hr +l10n_hu +l10n_id +l10n_it +l10n_ja +l10n_kn +l10n_ko +l10n_lt +l10n_lv +l10n_ml +l10n_mr +l10n_ms +l10n_nb +l10n_nl +l10n_pl +l10n_pt-BR +l10n_pt-PT +l10n_ro +l10n_ru +l10n_sk +l10n_sl +l10n_sr +l10n_sv +l10n_sw +l10n_ta +l10n_te +l10n_th +l10n_tr +l10n_uk +l10n_vi +l10n_zh-CN +l10n_zh-TW
+KEYWORDS: -* amd64
+LICENSE: google-chrome
+MD5: e5d862a3372d6799f3426f5f6ebff83e
+PATH: www-client/google-chrome/google-chrome-88.0.4324.182-1.xpak
+PROVIDES: x86_64: libEGL.so libGLESv2.so libwidevinecdm.so
+RDEPEND: app-accessibility/at-spi2-atk:2 app-accessibility/at-spi2-core:2 app-arch/bzip2 app-misc/ca-certificates dev-libs/atk dev-libs/expat dev-libs/glib:2 dev-libs/nspr >=dev-libs/nss-3.26 dev-libs/wayland media-libs/alsa-lib media-libs/fontconfig media-libs/freetype:2 media-libs/mesa[gbm] net-print/cups sys-apps/dbus sys-libs/libcap x11-libs/cairo x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3[X] x11-libs/libdrm >=x11-libs/libX11-1.5.0 x11-libs/libXcomposite x11-libs/libXcursor x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXi x11-libs/libXrandr x11-libs/libXrender x11-libs/libXScrnSaver x11-libs/libXtst x11-libs/libxcb x11-libs/libxkbcommon x11-libs/pango x11-misc/xdg-utils
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libX11.so.6 libXcomposite.so.1 libXdamage.so.1 libXext.so.6 libXfixes.so.3 libXrandr.so.2 libasound.so.2 libatk-1.0.so.0 libatk-bridge-2.0.so.0 libatspi.so.0 libc.so.6 libcairo.so.2 libcups.so.2 libdbus-1.so.3 libdl.so.2 libdrm.so.2 libexpat.so.1 libgbm.so.1 libgcc_s.so.1 libgdk-3.so.0 libgdk_pixbuf-2.0.so.0 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgtk-3.so.0 libm.so.6 libnspr4.so libnss3.so libnssutil3.so libpango-1.0.so.0 libpthread.so.0 librt.so.1 libsmime3.so libxcb.so.1 libxkbcommon.so.0
+RESTRICT: bindist mirror strip
+SHA1: 30c8428bad617e93fedc818c450ab8947c2e4ac6
+SIZE: 90924084
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux l10n_am l10n_ar l10n_bg l10n_bn l10n_ca l10n_cs l10n_da l10n_de l10n_el l10n_en-GB l10n_es l10n_es-419 l10n_et l10n_fa l10n_fi l10n_fil l10n_fr l10n_gu l10n_he l10n_hi l10n_hr l10n_hu l10n_id l10n_it l10n_ja l10n_kn l10n_ko l10n_lt l10n_lv l10n_ml l10n_mr l10n_ms l10n_nb l10n_nl l10n_pl l10n_pt-BR l10n_pt-PT l10n_ro l10n_ru l10n_sk l10n_sl l10n_sr l10n_sv l10n_sw l10n_ta l10n_te l10n_th l10n_tr l10n_uk l10n_vi l10n_zh-CN l10n_zh-TW userland_GNU
+MTIME: 1614393716
 REPO: gentoo
 
 BDEPEND: dev-util/ninja >=dev-util/cmake-3.9.6
