@@ -12,9 +12,9 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 1125
+PACKAGES: 1128
 PROFILE: default/linux/amd64/17.1/desktop/gnome/systemd
-TIMESTAMP: 1614529007
+TIMESTAMP: 1614529247
 URI: https://github.com/coldnew/gentoo-binhost/releases/download/x86_64-pc-linux-gnu
 USE: X a52 aac abi_x86_64 acl acpi ada_target_gnat_2018 alsa alsa_cards_ali5451 alsa_cards_als4000 alsa_cards_atiixp alsa_cards_atiixp-modem alsa_cards_bt87x alsa_cards_ca0106 alsa_cards_cmipci alsa_cards_emu10k1x alsa_cards_ens1370 alsa_cards_ens1371 alsa_cards_es1938 alsa_cards_es1968 alsa_cards_fm801 alsa_cards_hda-intel alsa_cards_intel8x0 alsa_cards_intel8x0m alsa_cards_maestro3 alsa_cards_trident alsa_cards_usb-audio alsa_cards_via82xx alsa_cards_via82xx-modem alsa_cards_ymfpci amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias avahi berkdb bindist bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk cli collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cuda cups dbus dri dts dvd dvdr eds egl elibc_glibc emacs emboss encode evo exif flac fortran gdbm geolocation gif gles gles2 gnome gnome-keyring gnome-online-accounts gpm gps gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 grub_platforms_pc gstreamer gtk gtk-doc gtk3 gui ibus iconv icu input_devices_libinput introspection ipv6 jpeg kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libsecret libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg mtp multilib nautilus ncurses networkmanager nls nptl nvenc office_implementation_libreoffice ogg opencl opengl openmp pam pango pcre pdf php_targets_php7-3 php_targets_php7-4 png policykit postgres_targets_postgres10 postgres_targets_postgres11 ppds pulseaudio python_single_target_python3_8 python_targets_python3_8 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qt5 readline ruby_targets_ruby26 samba sdl seccomp spell split-usr ssl startup-notification svg sysprof systemd tcpd tiff tracker truetype udev udisks unicode upower usb userland_GNU vaapi vala video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_nvidia video_cards_vesa video_cards_virgl video_cards_virtualbox video_cards_vmware vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid xwayland zeroconf zlib
 USERLAND: GNU
@@ -3223,6 +3223,23 @@ SHA1: 106dc1c5d4bc97e49008e572f4c5420279ec1ebe
 SIZE: 27056
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1614375373
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1614529057
+CPV: app-vim/fluxbox-syntax-1.5-r1
+DEFINED_PHASES: install postinst postrm prepare
+DEPEND: || ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+EAPI: 6
+KEYWORDS: ~alpha amd64 arm ~hppa ~ia64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+LICENSE: vim
+MD5: 6a46fee1f1128d7638af13a951aa6d76
+PATH: app-vim/fluxbox-syntax/fluxbox-syntax-1.5-r1-1.xpak
+RDEPEND: app-vim/genindent || ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+SHA1: 6113dcb4f5061d032260abfa0a0c23f71977fc3c
+SIZE: 12527
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1614529060
 REPO: gentoo
 
 BUILD_ID: 1
@@ -14675,6 +14692,28 @@ USE: abi_x86_64 amd64 bullet cuda cycles dds elbeem elibc_glibc ffmpeg fftw jema
 MTIME: 1614387978
 REPO: gentoo
 
+BDEPEND: dev-lang/swig dev-util/ninja dev-util/cmake
+BUILD_ID: 1
+BUILD_TIME: 1614529185
+CPV: media-gfx/freecad-0.19_pre20201231
+DEFINED_PHASES: compile configure install postinst postrm preinst prepare pretend setup test
+DEPEND: dev-lang/python:3.8 >=dev-lang/python-exec-2:2/2=[python_targets_python3_8] >=dev-cpp/eigen-3.3.1:3 dev-libs/OpenNI2[opengl(+)] dev-libs/libspnav[X] dev-libs/xerces-c dev-qt/designer:5 dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsvg:5 dev-qt/qtwebengine:5[widgets] dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 dev-qt/qtxml:5 >=media-libs/coin-4.0.0 media-libs/freetype media-libs/qhull sci-libs/flann[openmp] >=sci-libs/med-4.0.0-r1[python,python_single_target_python3_8(-)] sci-libs/opencascade:7.4.0/7.4.0=[vtk(+)] sci-libs/orocos_kdl:0/14= sys-libs/zlib virtual/glu virtual/libusb:1 virtual/opengl <sci-libs/vtk-9[boost,python,qt5,rendering,python_single_target_python3_8(-)] sci-libs/hdf5:0/1.10.5=[fortran,zlib] media-gfx/openscad dev-libs/boost:0/1.75.0=[python,threads,python_targets_python3_8(-)] dev-python/matplotlib[python_targets_python3_8(-)] dev-python/numpy[python_targets_python3_8(-)] >=dev-python/pivy-0.6.5[python_targets_python3_8(-)] dev-python/pyside2[gui,svg,python_targets_python3_8(-)] dev-python/shiboken2[python_targets_python3_8(-)] dev-python/GitPython[python_targets_python3_8(-)] dev-python/pybind11[python_targets_python3_8(-)] dev-util/desktop-file-utils x11-misc/shared-mime-info
+EAPI: 7
+IUSE: ccache debug headless pcl test +addonmgr +arch +drawing +fem +idf +image +inspection +material +mesh +openscad +part-design +path +points +raytracing +robot +show +spreadsheet +surface +techdraw +tux -cloud -plot -ship python_single_target_python3_7 python_single_target_python3_8
+KEYWORDS: ~amd64
+LICENSE: LGPL-2 CC-BY-SA-4.0
+MD5: c3d53eb6e1a807877695c1d92e1584f9
+PATH: media-gfx/freecad/freecad-0.19_pre20201231-1.xpak
+PROVIDES: x86_64: DraftUtils.so Drawing.so DrawingGui.so Fem.so FemGui.so FreeCAD.so FreeCADGui.so Image.so ImageGui.so Import.so ImportGui.so Inspection.so InspectionGui.so Measure.so Mesh.so MeshGui.so MeshPart.so MeshPartGui.so Part.so PartDesignGui.so PartGui.so Path.so PathGui.so PathSimulator.so Points.so PointsGui.so Raytracing.so RaytracingGui.so Robot.so RobotGui.so Sketcher.so SketcherGui.so Spreadsheet.so SpreadsheetGui.so Start.so StartGui.so Surface.so SurfaceGui.so TechDraw.so TechDrawGui.so Web.so WebGui.so _PartDesign.so area.so flatmesh.so libDriver.so libDriverDAT.so libDriverSTL.so libDriverUNV.so libFreeCADApp.so libFreeCADBase.so libFreeCADGui.so libMEFISTO2.so libSMDS.so libSMESH.so libSMESHDS.so libStdMeshers.so libarea-native.so
+RDEPEND: dev-lang/python:3.8 >=dev-lang/python-exec-2:2/2=[python_targets_python3_8] >=dev-cpp/eigen-3.3.1:3 dev-libs/OpenNI2[opengl(+)] dev-libs/libspnav[X] dev-libs/xerces-c dev-qt/designer:5 dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsvg:5 dev-qt/qtwebengine:5[widgets] dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 dev-qt/qtxml:5 >=media-libs/coin-4.0.0 media-libs/freetype media-libs/qhull sci-libs/flann[openmp] >=sci-libs/med-4.0.0-r1[python,python_single_target_python3_8(-)] sci-libs/opencascade:7.4.0/7.4.0=[vtk(+)] sci-libs/orocos_kdl:0/14= sys-libs/zlib virtual/glu virtual/libusb:1 virtual/opengl <sci-libs/vtk-9[boost,python,qt5,rendering,python_single_target_python3_8(-)] sci-libs/hdf5:0/1.10.5=[fortran,zlib] media-gfx/openscad dev-libs/boost:0/1.75.0=[python,threads,python_targets_python3_8(-)] dev-python/matplotlib[python_targets_python3_8(-)] dev-python/numpy[python_targets_python3_8(-)] >=dev-python/pivy-0.6.5[python_targets_python3_8(-)] dev-python/pyside2[gui,svg,python_targets_python3_8(-)] dev-python/shiboken2[python_targets_python3_8(-)] dev-python/GitPython[python_targets_python3_8(-)] dev-python/pybind11[python_targets_python3_8(-)]
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libCoin.so.80 libGL.so.1 libGLU.so.1 libQt5Concurrent.so.5 libQt5Core.so.5 libQt5Gui.so.5 libQt5Network.so.5 libQt5OpenGL.so.5 libQt5PrintSupport.so.5 libQt5Svg.so.5 libQt5WebEngineCore.so.5 libQt5WebEngineWidgets.so.5 libQt5Widgets.so.5 libQt5Xml.so.5 libQt5XmlPatterns.so.5 libTKBO.so.7 libTKBRep.so.7 libTKBool.so.7 libTKCAF.so.7 libTKCDF.so.7 libTKFeat.so.7 libTKFillet.so.7 libTKG2d.so.7 libTKG3d.so.7 libTKGeomAlgo.so.7 libTKGeomBase.so.7 libTKHLR.so.7 libTKIGES.so.7 libTKLCAF.so.7 libTKMath.so.7 libTKMesh.so.7 libTKMeshVS.so.7 libTKOffset.so.7 libTKPrim.so.7 libTKSTEP.so.7 libTKSTEP209.so.7 libTKSTEPAttr.so.7 libTKSTEPBase.so.7 libTKSTL.so.7 libTKShHealing.so.7 libTKTopAlgo.so.7 libTKXCAF.so.7 libTKXDEIGES.so.7 libTKXDESTEP.so.7 libTKXSBase.so.7 libTKernel.so.7 libboost_filesystem.so.1.75.0 libboost_program_options.so.1.75.0 libboost_regex.so.1.75.0 libboost_thread.so.1.75.0 libc.so.6 libdl.so.2 libfreetype.so.6 libgcc_s.so.1 libm.so.6 libmedC.so.11 libpthread.so.0 libpyside2-python3.8.so.5.15 libpython3.8.so.1.0 libshiboken2-python3.8.so.5.15 libspnav.so.0 libstdc++.so.6 libvtkCommonCore.so.1 libvtkCommonDataModel.so.1 libvtkCommonExecutionModel.so.1 libvtkFiltersCore.so.1 libvtkFiltersExtraction.so.1 libvtkFiltersGeneral.so.1 libvtkFiltersGeometry.so.1 libvtkFiltersSources.so.1 libvtkFiltersVerdict.so.1 libvtkIOCore.so.1 libvtkIOLegacy.so.1 libvtkIOXML.so.1 libxerces-c-3.2.so libz.so.1
+RESTRICT: test
+SHA1: 2f69135ea362037ae326caac95d8e6b3c7d0e2ab
+SIZE: 256483542
+USE: abi_x86_64 addonmgr amd64 arch drawing elibc_glibc fem idf image inspection kernel_linux material mesh openscad part-design path points python_single_target_python3_8 raytracing robot show spreadsheet surface techdraw tux userland_GNU
+MTIME: 1614529247
+REPO: gentoo
+
 BDEPEND: >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.2-r1:1.16 >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 app-arch/xz-utils
 BUILD_ID: 1
 BUILD_TIME: 1614428517
@@ -14738,6 +14777,26 @@ SHA1: 479502d84e715bb4f9701cb4042aba1fe0c86eaf
 SIZE: 3978570
 USE: X abi_x86_64 amd64 cairo elibc_glibc gtk kernel_linux nls pdf python_single_target_python3_8 qt5 svg userland_GNU
 MTIME: 1614378923
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1614529045
+CPV: media-gfx/potrace-1.16
+DEFINED_PHASES: configure install
+DEPEND: sys-libs/zlib:0/1=
+EAPI: 7
+IUSE: metric
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ppc ppc64 ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
+LICENSE: GPL-2
+MD5: c4dfe7ad618f846bb7407913c150b3cf
+PATH: media-gfx/potrace/potrace-1.16-1.xpak
+PROVIDES: x86_64: libpotrace.so.0
+RDEPEND: sys-libs/zlib:0/1=
+REQUIRES: x86_64: libc.so.6 libm.so.6 libz.so.1
+SHA1: 854bb64eae71e0609fc8bf2a07819d0012e01663
+SIZE: 141385
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1614529048
 REPO: gentoo
 
 BDEPEND: >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.2-r1:1.16 >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
