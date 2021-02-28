@@ -12,9 +12,9 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 1156
+PACKAGES: 1159
 PROFILE: default/linux/amd64/17.1/desktop/gnome/systemd
-TIMESTAMP: 1614530734
+TIMESTAMP: 1614530797
 URI: https://github.com/coldnew/gentoo-binhost/releases/download/x86_64-pc-linux-gnu
 USE: X a52 aac abi_x86_64 acl acpi ada_target_gnat_2018 alsa alsa_cards_ali5451 alsa_cards_als4000 alsa_cards_atiixp alsa_cards_atiixp-modem alsa_cards_bt87x alsa_cards_ca0106 alsa_cards_cmipci alsa_cards_emu10k1x alsa_cards_ens1370 alsa_cards_ens1371 alsa_cards_es1938 alsa_cards_es1968 alsa_cards_fm801 alsa_cards_hda-intel alsa_cards_intel8x0 alsa_cards_intel8x0m alsa_cards_maestro3 alsa_cards_trident alsa_cards_usb-audio alsa_cards_via82xx alsa_cards_via82xx-modem alsa_cards_ymfpci amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias avahi berkdb bindist bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk cli collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cuda cups dbus dri dts dvd dvdr eds egl elibc_glibc emacs emboss encode evo exif flac fortran gdbm geolocation gif gles gles2 gnome gnome-keyring gnome-online-accounts gpm gps gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 grub_platforms_pc gstreamer gtk gtk-doc gtk3 gui ibus iconv icu input_devices_libinput introspection ipv6 jpeg kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libsecret libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg mtp multilib nautilus ncurses networkmanager nls nptl nvenc office_implementation_libreoffice ogg opencl opengl openmp pam pango pcre pdf php_targets_php7-3 php_targets_php7-4 png policykit postgres_targets_postgres10 postgres_targets_postgres11 ppds pulseaudio python_single_target_python3_8 python_targets_python3_8 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qt5 readline ruby_targets_ruby26 samba sdl seccomp spell split-usr ssl startup-notification svg sysprof systemd tcpd tiff tracker truetype udev udisks unicode upower usb userland_GNU vaapi vala video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_nvidia video_cards_vesa video_cards_virgl video_cards_virtualbox video_cards_vmware vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid xwayland zeroconf zlib
 USERLAND: GNU
@@ -2086,6 +2086,27 @@ USE: abi_x86_64 amd64 cri elibc_glibc kernel_linux seccomp userland_GNU
 MTIME: 1614528957
 REPO: gentoo
 
+BDEPEND: >=dev-lang/go-1.13.12 dev-go/go-md2man virtual/pkgconfig virtual/pkgconfig virtual/pkgconfig >=dev-lang/go-1.10
+BUILD_ID: 1
+BUILD_TIME: 1614530788
+CPV: app-emulation/docker-20.10.3
+DEFINED_PHASES: compile install postinst setup unpack
+DEPEND: acct-group/docker >=dev-db/sqlite-3.7.9:3 >=sys-libs/libseccomp-2.2.1
+EAPI: 7
+IUSE: apparmor aufs btrfs +cli +container-init device-mapper hardened overlay seccomp kernel_linux
+KEYWORDS: ~amd64 ~arm ~arm64 ~ppc64 ~x86
+LICENSE: Apache-2.0
+MD5: 3a07e75fdfaefa7810929f68fae2dcae
+PATH: app-emulation/docker/docker-20.10.3-1.xpak
+RDEPEND: acct-group/docker >=dev-db/sqlite-3.7.9:3 >=sys-libs/libseccomp-2.2.1 >=net-firewall/iptables-1.4 sys-process/procps >=dev-vcs/git-1.7 >=app-arch/xz-utils-4.9 dev-libs/libltdl ~app-emulation/containerd-1.4.3[seccomp] ~app-emulation/runc-1.0.0_rc92[seccomp] ~app-emulation/docker-proxy-0.8.0_p20201215 >=sys-process/tini-0.19.0[static]
+REQUIRES: x86_64: libc.so.6 libdl.so.2 libpthread.so.0 libsystemd.so.0
+RESTRICT: installsources strip
+SHA1: c553232abbf55b17e102899ba2764b50cc39f377
+SIZE: 24595272
+USE: abi_x86_64 amd64 container-init elibc_glibc kernel_linux seccomp userland_GNU
+MTIME: 1614530795
+REPO: gentoo
+
 BDEPEND: dev-go/go-md2man >=dev-lang/go-1.10
 BUILD_ID: 1
 BUILD_TIME: 1614528434
@@ -2860,6 +2881,26 @@ SHA1: daecf3fcbc4ece0903f3806c8fbf4db8f5ad39b2
 SIZE: 47975
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1614347260
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1614530794
+CPV: app-office/dia-0.97.3-r1
+DEFINED_PHASES: compile configure install postinst postrm preinst prepare
+DEPEND: >=dev-libs/glib-2:2 dev-libs/libxml2 dev-libs/libxslt dev-libs/popt >=media-libs/freetype-2 >=media-libs/libart_lgpl-2 media-libs/libpng:0 sys-libs/zlib x11-libs/gtk+:2 x11-libs/pango x11-libs/cairo dev-util/intltool sys-apps/sed virtual/pkgconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.2-r1:1.16 >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 app-arch/xz-utils dev-util/desktop-file-utils x11-misc/shared-mime-info
+EAPI: 6
+IUSE: +cairo doc
+KEYWORDS: ~alpha amd64 ~arm ~hppa ~ia64 ~ppc ppc64 ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE: GPL-2
+MD5: bfb71ef5f5e532415f8c84ff3fe678d4
+PATH: app-office/dia/dia-0.97.3-r1-1.xpak
+PROVIDES: x86_64: libaadl_objects.so libart_filter.so libcairo_filter.so libcgm_filter.so libchronogram_objects.so libcustom_lines_objects.so libcustom_objects.so libdb_objects.so libdia.so libdxf_filter.so liber_objects.so libflowchart_objects.so libfs_objects.so libgrafcet_objects.so libhpgl_filter.so libistar_objects.so libjackson_objects.so libkaos_objects.so libmetapost_filter.so libmisc_objects.so libnetwork_objects.so libpgf_filter.so libpixbuf_filter.so libpostscript_filter.so libpstricks_filter.so libsadt_objects.so libshape_filter.so libstandard_objects.so libsvg_filter.so libuml_objects.so libvdx_filter.so libwpg_filter.so libxfig_filter.so libxslt_filter.so
+RDEPEND: >=dev-libs/glib-2:2 dev-libs/libxml2 dev-libs/libxslt dev-libs/popt >=media-libs/freetype-2 >=media-libs/libart_lgpl-2 media-libs/libpng:0 sys-libs/zlib x11-libs/gtk+:2 x11-libs/pango x11-libs/cairo
+REQUIRES: x86_64: libart_lgpl_2.so.2 libc.so.6 libcairo.so.2 libfreetype.so.6 libgdk-x11-2.0.so.0 libgdk_pixbuf-2.0.so.0 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libgthread-2.0.so.0 libgtk-x11-2.0.so.0 libm.so.6 libpango-1.0.so.0 libpangocairo-1.0.so.0 libpangoft2-1.0.so.0 libpng16.so.16 libpthread.so.0 libxml2.so.2 libxslt.so.1 libz.so.1
+SHA1: 9c249d7a8df1b590ab64dde87387132ba3ade20b
+SIZE: 4848497
+USE: abi_x86_64 amd64 cairo elibc_glibc kernel_linux userland_GNU
+MTIME: 1614530797
 REPO: gentoo
 
 BDEPEND: >=dev-lang/perl-5.8.1 dev-perl/XML-Parser >=dev-util/intltool-0.40.5 sys-devel/gettext virtual/pkgconfig
@@ -5600,6 +5641,24 @@ SHA1: 6339423205e77295b2782ceae97d2ec6c1098345
 SIZE: 87598
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux nls userland_GNU
 MTIME: 1614352585
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1614530792
+CPV: dev-libs/qqwing-1.3.4
+DEFINED_PHASES: install
+EAPI: 5
+KEYWORDS: amd64 arm ~arm64 x86
+LICENSE: GPL-2+
+MD5: 3b04020d2fbe25b4f9cefef94d0c609d
+PATH: dev-libs/qqwing/qqwing-1.3.4-1.xpak
+PROVIDES: x86_64: libqqwing.so.2
+REQUIRES: x86_64: libc.so.6 libgcc_s.so.1 libm.so.6 libstdc++.so.6
+SHA1: efa27d05eb25c5ab8b2c7bbde5e9cf425cacae4d
+SIZE: 57065
+SLOT: 0/2
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1614530793
 REPO: gentoo
 
 BUILD_ID: 1
