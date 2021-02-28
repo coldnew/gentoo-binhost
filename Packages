@@ -12,9 +12,9 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 1107
+PACKAGES: 1110
 PROFILE: default/linux/amd64/17.1/desktop/gnome/systemd
-TIMESTAMP: 1614528394
+TIMESTAMP: 1614528443
 URI: https://github.com/coldnew/gentoo-binhost/releases/download/x86_64-pc-linux-gnu
 USE: X a52 aac abi_x86_64 acl acpi ada_target_gnat_2018 alsa alsa_cards_ali5451 alsa_cards_als4000 alsa_cards_atiixp alsa_cards_atiixp-modem alsa_cards_bt87x alsa_cards_ca0106 alsa_cards_cmipci alsa_cards_emu10k1x alsa_cards_ens1370 alsa_cards_ens1371 alsa_cards_es1938 alsa_cards_es1968 alsa_cards_fm801 alsa_cards_hda-intel alsa_cards_intel8x0 alsa_cards_intel8x0m alsa_cards_maestro3 alsa_cards_trident alsa_cards_usb-audio alsa_cards_via82xx alsa_cards_via82xx-modem alsa_cards_ymfpci amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias avahi berkdb bindist bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk cli collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cuda cups dbus dri dts dvd dvdr eds egl elibc_glibc emacs emboss encode evo exif flac fortran gdbm geolocation gif gles gles2 gnome gnome-keyring gnome-online-accounts gpm gps gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 grub_platforms_pc gstreamer gtk gtk-doc gtk3 gui ibus iconv icu input_devices_libinput introspection ipv6 jpeg kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libsecret libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg mtp multilib nautilus ncurses networkmanager nls nptl nvenc office_implementation_libreoffice ogg opencl opengl openmp pam pango pcre pdf php_targets_php7-3 php_targets_php7-4 png policykit postgres_targets_postgres10 postgres_targets_postgres11 ppds pulseaudio python_single_target_python3_8 python_targets_python3_8 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qt5 readline ruby_targets_ruby26 samba sdl seccomp spell split-usr ssl startup-notification svg sysprof systemd tcpd tiff tracker truetype udev udisks unicode upower usb userland_GNU vaapi vala video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_nvidia video_cards_vesa video_cards_virgl video_cards_virtualbox video_cards_vmware vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid xwayland zeroconf zlib
 USERLAND: GNU
@@ -1798,6 +1798,26 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1614350325
 REPO: gentoo
 
+BDEPEND: dev-go/go-md2man >=dev-lang/go-1.10
+BUILD_ID: 1
+BUILD_TIME: 1614528434
+CPV: app-emulation/docker-cli-20.10.3
+DEFINED_PHASES: compile install prepare unpack
+EAPI: 7
+IUSE: hardened
+KEYWORDS: ~amd64 ~arm ~arm64 ~ppc64 ~x86
+LICENSE: Apache-2.0
+MD5: a64ea3f4ffd9d671f32f95d87e523ac6
+PATH: app-emulation/docker-cli/docker-cli-20.10.3-1.xpak
+RDEPEND: !<app-emulation/docker-20.10.1
+REQUIRES: x86_64: libc.so.6 libdl.so.2 libpthread.so.0
+RESTRICT: installsources strip
+SHA1: 61a4e3a5b762a3967e15458a2864f966fa466d7e
+SIZE: 14033712
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1614528439
+REPO: gentoo
+
 BDEPEND: >=dev-lang/go-1.10
 BUILD_ID: 1
 BUILD_TIME: 1614528345
@@ -2606,6 +2626,26 @@ MTIME: 1614348714
 REPO: gentoo
 
 BUILD_ID: 1
+BUILD_TIME: 1614528433
+CPV: app-text/calibre-5.6.0
+DEFINED_PHASES: install postinst postrm preinst prepare pretend setup
+DEPEND: dev-lang/python:3.8[ipv6,sqlite,ssl] >=dev-lang/python-exec-2:2/2=[python_targets_python3_8] >=app-text/hunspell-1.7:0/1.7= >=app-text/podofo-0.9.6_pre20171027:0/0.9.6= >=app-text/poppler-0.26.5[qt5] dev-libs/glib:2/2= dev-libs/hyphen:0/0= >=dev-libs/icu-57.1:0/68.2= dev-libs/libinput:0/10= >=dev-libs/dbus-glib-0.106 >=sys-apps/dbus-1.10.8 >=dev-python/apsw-3.25.2_p1[python_targets_python3_8(-)] dev-python/beautifulsoup:4[python_targets_python3_8(-)] >=dev-python/chardet-3.0.3[python_targets_python3_8(-)] >=dev-python/cssselect-0.7.1[python_targets_python3_8(-)] >=dev-python/css-parser-1.0.4[python_targets_python3_8(-)] >=dev-python/dbus-python-1.2.4[python_targets_python3_8(-)] dev-python/dnspython[python_targets_python3_8(-)] >=dev-python/feedparser-5.2.1[python_targets_python3_8(-)] >=dev-python/html2text-2019.8.11[python_targets_python3_8(-)] >=dev-python/html5-parser-0.4.9[python_targets_python3_8(-)] >=dev-python/lxml-3.8.0[python_targets_python3_8(-)] >=dev-python/markdown-3.0.1[python_targets_python3_8(-)] >=dev-python/mechanize-0.3.5[python_targets_python3_8(-)] >=dev-python/msgpack-0.6.2[python_targets_python3_8(-)] >=dev-python/netifaces-0.10.5[python_targets_python3_8(-)] >=dev-python/pillow-3.2.0[python_targets_python3_8(-)] >=dev-python/psutil-4.3.0[python_targets_python3_8(-)] >=dev-python/pychm-0.8.6[python_targets_python3_8(-)] >=dev-python/pygments-2.3.1[python_targets_python3_8(-)] >=dev-python/python-dateutil-2.5.3[python_targets_python3_8(-)] >=dev-python/PyQt5-5.12[gui,svg,widgets,network,printsupport,python_targets_python3_8(-)] >=dev-python/PyQtWebEngine-5.12[python_targets_python3_8(-)] dev-python/regex[python_targets_python3_8(-)] dev-python/zeroconf[python_targets_python3_8(-)] dev-qt/qtcore:5/5.15.2= dev-qt/qtdbus:5/5.15= dev-qt/qtgui:5/5.15.2=[jpeg] >=dev-qt/qtwebengine-5.12 dev-qt/qtwidgets:5/5.15= dev-util/desktop-file-utils dev-util/gtk-update-icon-cache media-fonts/liberation-fonts media-libs/fontconfig:1.0/1.0= >=media-libs/freetype-2:2/2= >=media-libs/libmtp-1.1.11:0/9= >=media-libs/libwmf-0.2.8 >=media-gfx/optipng-0.7.6 >=sys-libs/zlib-1.2.11:0/1= virtual/libusb:1/1= x11-libs/libxkbcommon:0/0= x11-libs/libX11:0/0= x11-libs/libXext:0/0= x11-libs/libXrender:0/0= x11-misc/shared-mime-info >=x11-misc/xdg-utils-1.0.2-r2 >=app-pda/usbmuxd-1.0.8 >=app-pda/libimobiledevice-1.2.0 virtual/libudev >=dev-python/setuptools-23.1.0[python_targets_python3_8(-)] dev-python/sip[python_targets_python3_8(-)] >=virtual/podofo-build-0.9.6_pre20171027 virtual/pkgconfig
+EAPI: 7
+IUSE: ios +udisks python_single_target_python3_8 python_single_target_python3_9
+KEYWORDS: ~amd64 ~arm ~x86
+LICENSE: GPL-3+ GPL-3 GPL-2+ GPL-2 GPL-1+ LGPL-3+ LGPL-2.1+ LGPL-2.1 BSD MIT Old-MIT Apache-2.0 public-domain || ( Artistic GPL-1+ ) CC-BY-3.0 OFL-1.1 PSF-2
+MD5: 6e2e53d259361c13fdf4cdd25b19a617
+PATH: app-text/calibre/calibre-5.6.0-1.xpak
+PROVIDES: x86_64: _patiencediff_c.so bzzdec.so cPalmdoc.so certgen.so freetype.so html_as_json.so html_syntax_highlighter.so hunspell.so hyphen.so icu.so imageops.so libheadless.so libmtp.so libusb.so lzx.so matcher.so msdes.so pictureflow.so podofo.so progress_indicator.so speedup.so sqlite_custom.so tokenizer.so unicode_names.so
+RDEPEND: dev-lang/python:3.8[ipv6,sqlite,ssl] >=dev-lang/python-exec-2:2/2=[python_targets_python3_8] >=app-text/hunspell-1.7:0/1.7= >=app-text/podofo-0.9.6_pre20171027:0/0.9.6= >=app-text/poppler-0.26.5[qt5] dev-libs/glib:2/2= dev-libs/hyphen:0/0= >=dev-libs/icu-57.1:0/68.2= dev-libs/libinput:0/10= >=dev-libs/dbus-glib-0.106 >=sys-apps/dbus-1.10.8 >=dev-python/apsw-3.25.2_p1[python_targets_python3_8(-)] dev-python/beautifulsoup:4[python_targets_python3_8(-)] >=dev-python/chardet-3.0.3[python_targets_python3_8(-)] >=dev-python/cssselect-0.7.1[python_targets_python3_8(-)] >=dev-python/css-parser-1.0.4[python_targets_python3_8(-)] >=dev-python/dbus-python-1.2.4[python_targets_python3_8(-)] dev-python/dnspython[python_targets_python3_8(-)] >=dev-python/feedparser-5.2.1[python_targets_python3_8(-)] >=dev-python/html2text-2019.8.11[python_targets_python3_8(-)] >=dev-python/html5-parser-0.4.9[python_targets_python3_8(-)] >=dev-python/lxml-3.8.0[python_targets_python3_8(-)] >=dev-python/markdown-3.0.1[python_targets_python3_8(-)] >=dev-python/mechanize-0.3.5[python_targets_python3_8(-)] >=dev-python/msgpack-0.6.2[python_targets_python3_8(-)] >=dev-python/netifaces-0.10.5[python_targets_python3_8(-)] >=dev-python/pillow-3.2.0[python_targets_python3_8(-)] >=dev-python/psutil-4.3.0[python_targets_python3_8(-)] >=dev-python/pychm-0.8.6[python_targets_python3_8(-)] >=dev-python/pygments-2.3.1[python_targets_python3_8(-)] >=dev-python/python-dateutil-2.5.3[python_targets_python3_8(-)] >=dev-python/PyQt5-5.12[gui,svg,widgets,network,printsupport,python_targets_python3_8(-)] >=dev-python/PyQtWebEngine-5.12[python_targets_python3_8(-)] dev-python/regex[python_targets_python3_8(-)] dev-python/zeroconf[python_targets_python3_8(-)] dev-qt/qtcore:5/5.15.2= dev-qt/qtdbus:5/5.15= dev-qt/qtgui:5/5.15.2=[jpeg] >=dev-qt/qtwebengine-5.12 dev-qt/qtwidgets:5/5.15= dev-util/desktop-file-utils dev-util/gtk-update-icon-cache media-fonts/liberation-fonts media-libs/fontconfig:1.0/1.0= >=media-libs/freetype-2:2/2= >=media-libs/libmtp-1.1.11:0/9= >=media-libs/libwmf-0.2.8 >=media-gfx/optipng-0.7.6 >=sys-libs/zlib-1.2.11:0/1= virtual/libusb:1/1= x11-libs/libxkbcommon:0/0= x11-libs/libX11:0/0= x11-libs/libXext:0/0= x11-libs/libXrender:0/0= x11-misc/shared-mime-info >=x11-misc/xdg-utils-1.0.2-r2 >=app-pda/usbmuxd-1.0.8 >=app-pda/libimobiledevice-1.2.0 virtual/libudev sys-fs/udisks:2
+REQUIRES: x86_64: libQt5Core.so.5 libQt5Gui.so.5 libQt5Widgets.so.5 libc.so.6 libcrypto.so.1.1 libfontconfig.so.1 libfreetype.so.6 libgcc_s.so.1 libglib-2.0.so.0 libhunspell-1.7.so.0 libhyphen.so.0 libicui18n.so.68 libicuuc.so.68 libm.so.6 libmtp.so.9 libpodofo.so.0.9.6 libpython3.8.so.1.0 libstdc++.so.6 libusb-1.0.so.0
+SHA1: d41e424988ff00db51f476fcd7b4bf67fd5cca80
+SIZE: 34352145
+USE: abi_x86_64 amd64 elibc_glibc ios kernel_linux python_single_target_python3_8 udisks userland_GNU
+MTIME: 1614528443
+REPO: gentoo
+
+BUILD_ID: 1
 BUILD_TIME: 1614348761
 CPV: app-text/docbook-dsssl-stylesheets-1.79-r4
 DEFINED_PHASES: install postinst postrm preinst
@@ -2948,6 +2988,23 @@ SHA1: f9ee5a9817bccfe03223345e39e544b9f22bf7ab
 SIZE: 67135
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux text userland_GNU
 MTIME: 1614350746
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1614528430
+CPV: app-vim/dhcpd-syntax-20030825-r1
+DEFINED_PHASES: install postinst postrm
+DEPEND: || ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+EAPI: 6
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~mips ppc ppc64 s390 sparc x86
+LICENSE: vim
+MD5: e0f82f83680f4c4f43d7294668725cf2
+PATH: app-vim/dhcpd-syntax/dhcpd-syntax-20030825-r1-1.xpak
+RDEPEND: || ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+SHA1: be11298c6a163d2a65c1db316412b6ad8909b7d1
+SIZE: 13286
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1614528431
 REPO: gentoo
 
 BUILD_ID: 1
