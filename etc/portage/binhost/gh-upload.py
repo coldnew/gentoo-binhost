@@ -84,7 +84,7 @@ def getEbuildDesc():
 
     return g_catDesc
 
-g = Github(gh_token, timeout = 80)
+g = Github(gh_token, timeout = 180)
 repo = g.get_repo(gh_repo)
 
 # make sure we are working on an existent branch
