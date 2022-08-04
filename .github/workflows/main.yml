@@ -29,13 +29,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Modify Packages
-        run: |
-          if [ -f Packages ] ; then
-            cat Packages | grep URI: 
-            if [ $? -eq 0 ] ; then
-              sed -i "/^TIMESTAMP:.*$/a URI: https://github.com/${GITHUB_ACTION_REPOSITORY}/releases/download/${GITHUB_REF_NAME}" Packages 
-            fi
-          fi
+        run: >-
+          sed -i "/^TIMESTAMP:.*$/a URI: https://github.com/${GITHUB_ACTION_REPOSITORY}/releases/download/${GITHUB_REF_NAME}" Packages 
         
       - name: Commit files
         run: |
