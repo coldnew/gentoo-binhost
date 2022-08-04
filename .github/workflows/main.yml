@@ -28,5 +28,15 @@ jobs:
       # Runs a single command using the runners shell
       - name: Modify Packages
         run: |
-        sed -i "/^TIMESTAMP:.*$/a URI: https://github.com/${GITHUB_ACTION_REPOSITORY}/releases/download/${GITHUB_REF_NAME}" Packages        
+          sed -i "/^TIMESTAMP:.*$/a URI: https://github.com/${GITHUB_ACTION_REPOSITORY}/releases/download/${GITHUB_REF_NAME}" Packages        
         
+      - name: Commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Packages: Add PORTAGE_BINHOST_HEADER_URI" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+         branch: ${{ github.ref }}
