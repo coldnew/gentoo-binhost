@@ -30,7 +30,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Modify Packages
         run: >-
-              sed -i "/^TIMESTAMP:.*$/a URI: https://github.com/${GITHUB_ACTION_REPOSITORY}/releases/download/${GITHUB_REF_NAME}" Packages 
+          sed -i "/^TIMESTAMP:.*$/a URI: https://github.com/${GITHUB_ACTION_REPOSITORY}/releases/download/${GITHUB_REF_NAME}" Packages 
         
       - name: Commit files
         run: |
