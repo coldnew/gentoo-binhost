@@ -40,10 +40,13 @@ github upload can be easily configured.
 Enable gentoo binhost by adding the following lines.
 ```python
 # enable binhost
+PORTAGE_BINHOST_HEADER_URI="https://github.com/coldnew/gentoo-binhost/releases/download/${CHOST}"
 FEATURES="${FEATURES} buildpkg"
 USE="${USE} bindist"
 ACCEPT_LICENSE="-* @BINARY-REDISTRIBUTABLE"
 ```
+
+Since github releases are used to store the packages *PORTAGE_BINHOST_HEADER_URI* has to be set here.
 
 #### bashrc
 
