@@ -1,7 +1,7 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Copyright 2021 by Yen-Chin, Lee <coldnew.tw@gmail.com>
+# Copyright 2021-2022 by Yen-Chin, Lee <coldnew.tw@gmail.com>
 # Copyright 2020 by generik at spreequalle.de. All rights reserved.
 # This file is released under the "JSON License Agreement". Please see the LICENSE
 # file that should have been included as part of this package.
@@ -18,6 +18,7 @@ gh_token = '<your github access token>'
 gh_branch = os.environ['CHOST'] # use chost as git branch name
 gh_relName = gh_branch + '/' + os.environ['CATEGORY'] # create new github release for every category
 gh_author = InputGitAuthor(os.environ['PORTAGE_BUILD_USER'], os.environ['PORTAGE_BUILD_USER'] + '@' + socket.getfqdn())
+g_header_uri = "https://github.com/{}/release/download/{}".format(gh_repo, gh_branch)
 
 g_pkgName = os.environ['PF'] # create a new github asset for every package
 g_cat = os.environ['CATEGORY']
@@ -84,7 +85,7 @@ def getEbuildDesc():
 
     return g_catDesc
 
-g = Github(gh_token, timeout = 180)
+g = Github(gh_token, timeout = 280)
 repo = g.get_repo(gh_repo)
 
 # make sure we are working on an existent branch
@@ -121,6 +122,12 @@ try:
     commitMsg = g_pkgName + g_xpakStatus
     with open(g_manifestPath, 'r') as file:
         g_manifestFile = file.read()
+
+    # check if we need to insert PORTAGE_BINHOST_HEADER_URI in Packages
+    # the URI: entry will always between PROFILE: and TIMESTAMP:
+    def insertURI(match):
+       return match.group(1) + "URI: {}\n".format(g_header_uri) + match.group(2)
+    g_manifestFile = re.sub(r'(PROFILE:.*\n)(TIMESTAMP:.*\n)', insertURI, g_manifestFile)
 
     # receive git file/blob reference via git tree
     ref = repo.get_git_ref(f'heads/{gh_branch}') # get branch ref
