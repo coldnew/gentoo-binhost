@@ -21,6 +21,7 @@ gh_author = InputGitAuthor(os.environ['PORTAGE_BUILD_USER'], os.environ['PORTAGE
 g_header_uri = "https://github.com/{}/release/download/{}".format(gh_repo, gh_branch)
 
 g_pkgName = os.environ['PF'] # create a new github asset for every package
+g_pkgVersion = os.environ['PV']
 g_cat = os.environ['CATEGORY']
 
 # detect pkgdir layout
@@ -119,7 +120,7 @@ print('GIT ' + g_xpak + ' upload')
 
 # create/update Packages file
 try:
-    commitMsg = g_cat + "/" + g_pkgName + g_xpakStatus
+    commitMsg = g_cat + "-" + g_pkgVersion + g_xpakStatus
     with open(g_manifestPath, 'r') as file:
         g_manifestFile = file.read()
 
