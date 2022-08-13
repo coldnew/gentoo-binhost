@@ -119,7 +119,7 @@ print('GIT ' + g_xpak + ' upload')
 
 # create/update Packages file
 try:
-    commitMsg = g_pkgName + g_xpakStatus
+    commitMsg = g_cat + "/" + g_pkgName + g_xpakStatus
     with open(g_manifestPath, 'r') as file:
         g_manifestFile = file.read()
 
