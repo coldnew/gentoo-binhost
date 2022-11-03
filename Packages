@@ -13,10 +13,10 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 2116
+PACKAGES: 2119
 PROFILE: default/linux/amd64/17.1/desktop/gnome/systemd
 URI: https://github.com/coldnew/gentoo-binhost/release/download/x86_64-pc-linux-gnu
-TIMESTAMP: 1667482402
+TIMESTAMP: 1667482533
 USE: X a52 aac abi_x86_64 acl acpi ada_target_gnat_2020 alsa amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias avahi bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk clang cli collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cups dbus device-mapper dri dts dvd dvdr eds egl elibc_glibc emacs encode evo exif flac fortran gdbm geolocation gif gles gles2 gnome gnome-keyring gnome-online-accounts gpm gps gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 grub_platforms_pc gstreamer gtk gtk-doc gtk3 gui ibus iconv icu input_devices_libinput input_devices_wacom introspection ipv6 jpeg kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms libglvnd libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libsecret libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg mtp multilib nautilus ncurses networkmanager nls nptl office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php7-4 php_targets_php8-0 pipewire png policykit postgres_targets_postgres12 postgres_targets_postgres13 ppds pulseaudio python_single_target_python3_10 python_targets_python3_10 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_mips qemu_user_targets_mips64 qemu_user_targets_mips64el qemu_user_targets_mipsel qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qt5 readline ruby_targets_ruby27 samba sdl seccomp spell split-usr ssl startup-notification svg sysprof systemd test-rust tiff tracker truetype udev udisks unicode upower usb userland_GNU v4l v4l2 vaapi vala video_cards_i915 video_cards_i965 video_cards_intel video_cards_vesa video_cards_virgl video_cards_virtualbox vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid xwayland zeroconf zlib
 USERLAND: GNU
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS MONKEYD_PLUGINS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS USERLAND UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
@@ -3419,6 +3419,27 @@ SHA1: 72d72f016aee01670b4878d6da84e8ba13335c4d
 SIZE: 76096188
 USE: abi_x86_64 amd64 btrfs cri device-mapper elibc_glibc kernel_linux seccomp userland_GNU
 MTIME: 1667478975
+REPO: gentoo
+
+BDEPEND: >=dev-lang/go-1.16.12 dev-go/go-md2man virtual/pkgconfig virtual/pkgconfig virtual/pkgconfig >=dev-lang/go-1.10
+BUILD_ID: 1
+BUILD_TIME: 1667482491
+CPV: app-containers/docker-20.10.17
+DEFINED_PHASES: compile install postinst postrm setup unpack
+DEPEND: acct-group/docker >=dev-db/sqlite-3.7.9:3 >=sys-fs/btrfs-progs-3.16.1 >=sys-fs/lvm2-2.02.89[thin] >=sys-libs/libseccomp-2.2.1
+EAPI: 7
+IUSE: apparmor aufs btrfs +cli +container-init device-mapper hardened overlay seccomp selinux
+KEYWORDS: amd64 ~arm arm64 ppc64 ~riscv ~x86
+LICENSE: Apache-2.0
+MD5: 106a710ac3e8dbe5560043dee8dcf7ac
+PATH: app-containers/docker/docker-20.10.17-1.xpak
+RDEPEND: acct-group/docker >=dev-db/sqlite-3.7.9:3 >=sys-fs/btrfs-progs-3.16.1 >=sys-fs/lvm2-2.02.89[thin] >=sys-libs/libseccomp-2.2.1 >=net-firewall/iptables-1.4 sys-process/procps >=dev-vcs/git-1.7 >=app-arch/xz-utils-4.9 dev-libs/libltdl >=app-containers/containerd-1.6.6[btrfs,device-mapper,seccomp] ~app-containers/docker-proxy-0.8.0_p20220601 ~app-containers/docker-cli-20.10.17 >=sys-process/tini-0.19.0[static]
+REQUIRES: x86_64: libc.so.6 libdevmapper.so.1.02 libdl.so.2 libpthread.so.0 libsystemd.so.0
+RESTRICT: installsources strip test
+SHA1: 68d7899fe948098f222fb3faa0102167c6c96e5a
+SIZE: 24547903
+USE: abi_x86_64 amd64 aufs btrfs cli container-init device-mapper elibc_glibc kernel_linux overlay seccomp userland_GNU
+MTIME: 1667482497
 REPO: gentoo
 
 BDEPEND: >=dev-lang/go-1.16.6 dev-go/go-md2man >=dev-lang/go-1.10
@@ -23288,6 +23309,26 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux png userland_GNU
 MTIME: 1667452446
 REPO: gentoo
 
+BDEPEND: >=dev-lang/python-3.10.4:3.10 >=dev-python/setuptools-65.3.0[python_targets_python3_10(-)]
+BUILD_ID: 1
+BUILD_TIME: 1667482533
+CPV: media-gfx/xdot-1.2-r1
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: dev-python/numpy[python_targets_python3_10(-)] dev-python/pycairo[python_targets_python3_10(-)] dev-python/pygobject:3[python_targets_python3_10(-)] media-gfx/graphviz
+EAPI: 7
+IUSE: python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 test
+KEYWORDS: amd64 arm arm64 ~hppa ~ia64 ppc ~ppc64 ~riscv ~sparc x86
+LICENSE: LGPL-2+
+MD5: 857e0b8faa3de835ce4f93cd6756a503
+PATH: media-gfx/xdot/xdot-1.2-r1-1.xpak
+RDEPEND: dev-python/numpy[python_targets_python3_10(-)] dev-python/pycairo[python_targets_python3_10(-)] dev-python/pygobject:3[python_targets_python3_10(-)] media-gfx/graphviz >=dev-lang/python-3.10.4:3.10
+RESTRICT: test
+SHA1: e72b251e16621541594b7e977b9b0da848fad401
+SIZE: 110494
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_targets_python3_10 userland_GNU
+MTIME: 1667482533
+REPO: gentoo
+
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
 BUILD_ID: 1
 BUILD_TIME: 1667474833
@@ -37587,6 +37628,28 @@ SHA1: d94f4506f2ab7d4bb9b8e1fec88d77f77d81b85f
 SIZE: 1091541
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
 MTIME: 1667482097
+REPO: gentoo
+
+BDEPEND: sys-devel/m4 virtual/pkgconfig virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1667482455
+CPV: x11-drivers/nvidia-drivers-520.56.06
+DEFINED_PHASES: compile install postinst postrm preinst prepare setup unpack
+DEPEND: acct-group/video sys-libs/glibc x11-libs/libpciaccess || ( >=app-accessibility/at-spi2-core-2.46:2 dev-libs/atk ) dev-libs/glib:2 dev-libs/jansson:0/4= media-libs/harfbuzz:0/4.0.0= x11-libs/cairo x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3[X] x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86vm x11-libs/pango x11-libs/libX11 x11-libs/libXext media-libs/libglvnd sys-apps/dbus x11-base/xorg-proto x11-libs/libXrandr x11-libs/libXv x11-libs/libvdpau sys-apps/kmod[tools] sys-apps/sed virtual/linux-sources virtual/libelf
+EAPI: 8
+IUSE: +X abi_x86_32 abi_x86_64 +driver kernel-open persistenced +static-libs +tools wayland dist-kernel driver
+KEYWORDS: -* ~amd64 ~arm64
+LICENSE: NVIDIA-r2 BSD BSD-2 GPL-2 MIT ZLIB curl openssl
+MD5: 21b874b54806291abf79a9ce18daeacf
+PATH: x11-drivers/nvidia-drivers/nvidia-drivers-520.56.06-1.xpak
+PROVIDES: x86_64: libEGL_nvidia.so.0 libGLESv1_CM_nvidia.so.1 libGLESv2_nvidia.so.2 libGLX_nvidia.so.0 libcuda.so.1 libcudadebugger.so.1 libglxserver_nvidia.so.520.56.06 libnvcuvid.so.1 libnvidia-allocator.so.1 libnvidia-cfg.so.1 libnvidia-compiler.so.520.56.06 libnvidia-eglcore.so.520.56.06 libnvidia-encode.so.1 libnvidia-fbc.so.1 libnvidia-glcore.so.520.56.06 libnvidia-glsi.so.520.56.06 libnvidia-glvkspirv.so.520.56.06 libnvidia-gtk3.so.520.56.06 libnvidia-ml.so.1 libnvidia-ngx.so.1 libnvidia-nvvm.so.4 libnvidia-opencl.so.1 libnvidia-opticalflow.so.1 libnvidia-ptxjitcompiler.so.1 libnvidia-rtcore.so.520.56.06 libnvidia-tls.so.520.56.06 libnvidia-vulkan-producer.so.520.56.06 libnvidia-wayland-client.so.520.56.06 libnvoptix.so.1 libvdpau_nvidia.so.1 nvidia_drv.so
+RDEPEND: acct-group/video sys-libs/glibc x11-libs/libpciaccess || ( >=app-accessibility/at-spi2-core-2.46:2 dev-libs/atk ) dev-libs/glib:2 dev-libs/jansson:0/4= media-libs/harfbuzz:0/4.0.0= x11-libs/cairo x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3[X] x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86vm x11-libs/pango media-libs/libglvnd[X] x11-libs/libX11 x11-libs/libXext gui-libs/egl-gbm >=gui-libs/egl-wayland-1.1.10 media-libs/libglvnd sys-apps/kmod[tools]
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libEGL.so.1 libGL.so.1 libX11.so.6 libXext.so.6 libXxf86vm.so.1 libatk-1.0.so.0 libc.so.6 libcairo-gobject.so.2 libcairo.so.2 libdl.so.2 libgcc_s.so.1 libgdk-3.so.0 libgdk_pixbuf-2.0.so.0 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgtk-3.so.0 libharfbuzz.so.0 libjansson.so.4 libm.so.6 libnvidia-egl-wayland.so.1 libpango-1.0.so.0 libpangocairo-1.0.so.0 libpciaccess.so.0 libpthread.so.0 librt.so.1 libutil.so.1
+SHA1: 29551d97f2390c068fc73420b6c96f60b12b033e
+SIZE: 380675856
+SLOT: 0/520
+USE: X abi_x86_64 amd64 driver elibc_glibc kernel_linux static-libs tools userland_GNU wayland
+MTIME: 1667482511
 REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 virtual/pkgconfig
