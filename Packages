@@ -13,10 +13,10 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 3088
+PACKAGES: 3090
 PROFILE: default/linux/amd64/17.1/desktop/gnome/systemd
 URI: https://github.com/coldnew/gentoo-binhost/release/download/x86_64-pc-linux-gnu
-TIMESTAMP: 1668035750
+TIMESTAMP: 1668035869
 USE: X a52 aac abi_x86_64 acl acpi ada_target_gnat_2020 alsa amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias avahi bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk clang cli collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cups dbus device-mapper dri dts dvd dvdr eds egl elibc_glibc emacs encode evo exif flac fortran gdbm geolocation gif gles gles2 gnome gnome-keyring gnome-online-accounts gpm gps gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 grub_platforms_pc gstreamer gtk gtk-doc gtk3 gui ibus iconv icu input_devices_libinput input_devices_wacom introspection ipv6 jpeg kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms libglvnd libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libsecret libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg mtp multilib nautilus ncurses networkmanager nls nptl office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf php_targets_php7-4 php_targets_php8-0 pipewire png policykit postgres_targets_postgres12 postgres_targets_postgres13 ppds pulseaudio python_single_target_python3_10 python_targets_python3_10 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_mips qemu_user_targets_mips64 qemu_user_targets_mips64el qemu_user_targets_mipsel qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qt5 readline ruby_targets_ruby27 samba sdl seccomp spell split-usr ssl startup-notification svg sysprof systemd test-rust tiff tracker truetype udev udisks unicode upower usb userland_GNU v4l v4l2 vaapi vala video_cards_i915 video_cards_i965 video_cards_intel video_cards_vesa video_cards_virgl video_cards_virtualbox vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xv xvid xwayland zeroconf zlib
 USERLAND: GNU
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS MONKEYD_PLUGINS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS USERLAND UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
@@ -7213,6 +7213,28 @@ SHA1: 184233b41562c5721d9ddc654dfbe721b48a710e
 SIZE: 12649643
 USE: X abi_x86_64 amd64 elibc_glibc emoji gtk3 gtk4 gui introspection kernel_linux libnotify nls python python_targets_python3_10 systemd unicode userland_GNU vala wayland
 MTIME: 1667482715
+REPO: gentoo
+
+BDEPEND: dev-lang/vala:0.56 dev-libs/glib:2 dev-util/glib-utils virtual/pkgconfig x11-misc/xkeyboard-config app-i18n/unicode-cldr app-i18n/unicode-emoji sys-devel/gettext app-i18n/unicode-data sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=sys-devel/automake-1.16.5:1.16 >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+BUILD_ID: 3
+BUILD_TIME: 1668035859
+CPV: app-i18n/ibus-1.5.27
+DEFINED_PHASES: compile configure install postinst postrm prepare test
+DEPEND: app-text/iso-codes >=dev-libs/glib-2.65.0:2 gnome-base/dconf gnome-base/librsvg:2 sys-apps/dbus[X] x11-libs/libX11 >=x11-libs/libXfixes-6.0.0 x11-libs/gtk+:3 gui-libs/gtk:4 x11-libs/libX11 x11-libs/libXi dev-libs/gobject-introspection x11-libs/libnotify virtual/libintl >=dev-lang/python-3.10.4:3.10 dev-python/pygobject:3[python_targets_python3_10(-)] dev-libs/wayland x11-libs/libxkbcommon
+EAPI: 7
+IUSE: X appindicator +emoji gtk2 +gtk3 +gtk4 +gui +introspection libnotify nls +python systemd test +unicode vala wayland python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 test
+KEYWORDS: ~amd64 ~arm ~arm64 ~ia64 ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86
+LICENSE: LGPL-2.1
+MD5: a79153391949e8e03cd33fe4b8e362d8
+PATH: app-i18n/ibus/ibus-1.5.27-3.xpak
+PROVIDES: x86_64: im-ibus.so libibus-1.0.so.5 libim-ibus.so
+RDEPEND: app-text/iso-codes >=dev-libs/glib-2.65.0:2 gnome-base/dconf gnome-base/librsvg:2 sys-apps/dbus[X] x11-libs/libX11 >=x11-libs/libXfixes-6.0.0 x11-libs/gtk+:3 gui-libs/gtk:4 x11-libs/libX11 x11-libs/libXi dev-libs/gobject-introspection x11-libs/libnotify virtual/libintl >=dev-lang/python-3.10.4:3.10 dev-python/pygobject:3[python_targets_python3_10(-)] dev-libs/wayland x11-libs/libxkbcommon x11-libs/gtk+:3[introspection]
+REQUIRES: x86_64: libX11.so.6 libXfixes.so.3 libXi.so.6 libatk-1.0.so.0 libc.so.6 libcairo.so.2 libdconf.so.1 libdl.so.2 libgdk-3.so.0 libgdk_pixbuf-2.0.so.0 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgtk-3.so.0 libgtk-4.so.1 libnotify.so.4 libpango-1.0.so.0 libpangocairo-1.0.so.0 libpthread.so.0 libwayland-client.so.0 libxkbcommon.so.0
+RESTRICT: test
+SHA1: 8242c4a908173741e1915d0cd7dc73cdd480bd28
+SIZE: 13540147
+USE: X abi_x86_64 amd64 elibc_glibc emoji gtk3 gtk4 gui introspection kernel_linux libnotify nls python python_targets_python3_10 systemd unicode userland_GNU vala wayland
+MTIME: 1668035869
 REPO: gentoo
 
 BDEPEND: dev-util/cmake-fedora virtual/pkgconfig sys-devel/gettext sys-devel/make >=dev-util/cmake-3.20.5
@@ -41912,6 +41934,28 @@ SHA1: 69a5bac51f0a2a6b0225565cdde78bd124d98b03
 SIZE: 1105900
 USE: abi_x86_64 amd64 dbus elibc_glibc exif foomatic jpeg kernel_linux pdf png postscript tiff userland_GNU zeroconf
 MTIME: 1667482060
+REPO: gentoo
+
+BDEPEND: dev-util/gdbus-codegen >=sys-devel/gettext-0.18.3 virtual/pkgconfig virtual/pkgconfig
+BUILD_ID: 3
+BUILD_TIME: 1668035778
+CPV: net-print/cups-filters-1.28.16-r1
+DEFINED_PHASES: compile configure install postinst prepare test
+DEPEND: >=app-text/poppler-0.32[cxx,jpeg,lcms,tiff,utils] >=app-text/qpdf-8.3.0:0/11= dev-libs/glib:2 media-libs/fontconfig media-libs/freetype:2 media-libs/lcms:2 >=net-print/cups-1.7.3 !<=net-print/cups-1.5.9999 sys-devel/bc sys-libs/zlib media-libs/libexif sys-apps/dbus !net-print/foomatic-filters media-libs/libjpeg-turbo:0/0.2= app-text/mupdf media-libs/libpng:0/16= >=app-text/ghostscript-gpl-9.09[cups] media-libs/tiff:0 net-dns/avahi[dbus]
+EAPI: 8
+IUSE: dbus exif +foomatic jpeg ldap pclm pdf perl png +postscript test tiff zeroconf
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86
+LICENSE: MIT GPL-2
+MD5: a92e31e352883d08b2d55419d89cf881
+PATH: net-print/cups-filters/cups-filters-1.28.16-r1-3.xpak
+PROVIDES: x86_64: libcupsfilters.so.1 libfontembed.so.1
+RDEPEND: >=app-text/poppler-0.32[cxx,jpeg,lcms,tiff,utils] >=app-text/qpdf-8.3.0:0/11= dev-libs/glib:2 media-libs/fontconfig media-libs/freetype:2 media-libs/lcms:2 >=net-print/cups-1.7.3 !<=net-print/cups-1.5.9999 sys-devel/bc sys-libs/zlib media-libs/libexif sys-apps/dbus !net-print/foomatic-filters media-libs/libjpeg-turbo:0/0.2= app-text/mupdf media-libs/libpng:0/16= >=app-text/ghostscript-gpl-9.09[cups] media-libs/tiff:0 net-dns/avahi[dbus]
+REQUIRES: x86_64: libavahi-client.so.3 libavahi-common.so.3 libavahi-glib.so.1 libc.so.6 libcups.so.2 libdbus-1.so.3 libdl.so.2 libexif.so.12 libfontconfig.so.1 libgcc_s.so.1 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libjpeg.so.62 liblcms2.so.2 libm.so.6 libpng16.so.16 libpoppler-cpp.so.0 libpthread.so.0 libqpdf.so.29 libstdc++.so.6 libtiff.so.5 libz.so.1
+RESTRICT: test
+SHA1: 8c20d5a33f4c83adaed392c553cb9e1871f2cb91
+SIZE: 1111291
+USE: abi_x86_64 amd64 dbus elibc_glibc exif foomatic jpeg kernel_linux pdf png postscript tiff userland_GNU zeroconf
+MTIME: 1668035778
 REPO: gentoo
 
 BDEPEND: >=dev-util/gdbus-codegen-2.36.0 >=dev-util/intltool-0.40.6 virtual/pkgconfig sys-devel/gettext app-arch/xz-utils >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
