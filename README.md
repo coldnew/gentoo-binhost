@@ -17,7 +17,7 @@ FEATURES="${FEATURES} getbinpkg"
 If you want to make your Gentoo only download binary from binhost, add following
 
 ```bash
-ACCEPT_KEYWORDS="~amd64"
+ACCEPT_KEYWORDS="arm64"
 PORTAGE_BINHOST="https://raw.githubusercontent.com/coldnew/gentoo-binhost/${CHOST}"
 FEATURES="${FEATURES} getbinpkg"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --binpkg-respect-use=n --autounmask-write"
