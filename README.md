@@ -1,7 +1,7 @@
 aarch64-unknown-linux-gnu
 ---------------------
 
-Packages for `ARM64 (aarch64)` based cores, should worked on VirtualBox/UTM/VMWARE Fusion.
+Packages for `ARM64 (aarch64)` based cores, should worked on [UTM](https://github.com/utmapp/UTM) or QEMU.
 
 I use theses package to use Gentoo Linux on Apple Silicon with VM.
 
