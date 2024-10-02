@@ -12,10 +12,10 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 1998
+PACKAGES: 2012
 PROFILE: default/linux/arm64/23.0/desktop/gnome/systemd
 REPO_REVISIONS: {"gentoo": "cf3583470396ae6dd0399bcd5b55ec0e8f83c785"}
-TIMESTAMP: 1727854714
+TIMESTAMP: 1727854767
 USE: X a52 aac acl acpi ada_target_gcc_12 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias arm64 bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord cpu_flags_arm_edsp cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 crypt cups dbus dri dts dvdr eds elibc_glibc encode evo exif flac gdbm gif gnome gnome-keyring gnome-online-accounts gnome-shell gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gstreamer gtk gui guile_single_target_3-0 guile_targets_3-0 iconv icu input_devices_libinput introspection ipv6 jpeg kernel_linux keyring kf6compat lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg nautilus ncurses networkmanager nls office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf pgo php_targets_php8-2 png policykit postgres_targets_postgres15 ppds pulseaudio python_single_target_python3_12 python_targets_python3_12 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_mips qemu_user_targets_mips64 qemu_user_targets_mips64el qemu_user_targets_mipsel qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qt5 qt6 readline ruby_targets_ruby31 ruby_targets_ruby32 sdl seccomp sound spell ssl startup-notification svg sysprof systemd test-rust tiff tracker truetype udev udisks unicode upower usb video_cards_freedreno video_cards_lima video_cards_panfrost video_cards_v3d video_cards_vc4 video_cards_virgl video_cards_vivante vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 ABI_X86 CPU_FLAGS_PPC CPU_FLAGS_X86 ELIBC KERNEL
@@ -3268,6 +3268,22 @@ USE: arm64 elibc_glibc kernel_linux
 MTIME: 1688501659
 REPO: gentoo
 
+BUILD_ID: 2
+BUILD_TIME: 1727854732
+CPV: app-eselect/eselect-cdparanoia-0.1-r1
+DEFINED_PHASES: install
+EAPI: 7
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
+LICENSE: GPL-2
+MD5: 0505658b6ac0c1d82f6716dbba447ec3
+PATH: app-eselect/eselect-cdparanoia/eselect-cdparanoia-0.1-r1-2.gpkg.tar
+RDEPEND: app-eselect/eselect-lib-bin-symlink
+SHA1: a1833c28ab5f1d120bd820d63e1f25b72711123a
+SIZE: 20480
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854736
+REPO: gentoo
+
 BUILD_ID: 1
 BUILD_TIME: 1688740274
 CPV: app-eselect/eselect-ctags-1.19
@@ -3381,6 +3397,22 @@ USE: arm64 elibc_glibc kernel_linux
 MTIME: 1712405329
 REPO: gentoo
 
+BUILD_ID: 3
+BUILD_TIME: 1727854747
+CPV: app-eselect/eselect-lua-4-r1
+DEFINED_PHASES: install
+EAPI: 7
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: GPL-2
+MD5: d32da03ee9cdf88deeb073de12602991
+PATH: app-eselect/eselect-lua/eselect-lua-4-r1-3.gpkg.tar
+RDEPEND: app-admin/eselect !dev-lang/lua:0
+SHA1: 3cff79c4aa1013eabda8d1fecec4e041f28602f4
+SIZE: 20480
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854750
+REPO: gentoo
+
 BUILD_ID: 1
 BUILD_TIME: 1688249274
 CPV: app-eselect/eselect-mpg123-0.1-r1
@@ -3444,6 +3476,22 @@ SHA1: 822c984ec6f78a52ee417e5b73d865e06df7c647
 SIZE: 20480
 USE: arm64 elibc_glibc kernel_linux
 MTIME: 1712405352
+REPO: gentoo
+
+BUILD_ID: 3
+BUILD_TIME: 1727854750
+CPV: app-eselect/eselect-notify-send-0.1
+DEFINED_PHASES: install
+EAPI: 7
+KEYWORDS: ~alpha amd64 arm arm64 ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE: GPL-2
+MD5: 36f16ba81ee409c28d1a742dc6c3de8c
+PATH: app-eselect/eselect-notify-send/eselect-notify-send-0.1-3.gpkg.tar
+RDEPEND: app-admin/eselect >=app-eselect/eselect-lib-bin-symlink-0.1.1 !<x11-libs/libnotify-0.7.5-r1
+SHA1: 3acf820a0a0fcbb2692d140dfcc199e1e358f2c0
+SIZE: 20480
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854752
 REPO: gentoo
 
 BUILD_ID: 1
@@ -6649,6 +6697,27 @@ USE: arm64 elibc_glibc kernel_linux pcre
 MTIME: 1707448913
 REPO: gentoo
 
+BDEPEND: virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1727854731
+CPV: dev-lang/swig-4.2.1
+DEFINED_PHASES: configure install test
+DEPEND: dev-libs/libpcre2
+EAPI: 8
+IUSE: ccache doc pcre test
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 ~sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: GPL-3+ BSD BSD-2
+MD5: 5ab9587886eef4346c35cb8a90b6aeff
+PATH: dev-lang/swig/swig-4.2.1-1.gpkg.tar
+RDEPEND: dev-libs/libpcre2 >=sys-libs/glibc-2.40
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libgcc_s.so.1 libpcre2-8.so.0 libstdc++.so.6
+RESTRICT: test
+SHA1: 7381fdc05e2a6a5b34bccdb48aaee9224dd6cd44
+SIZE: 1628160
+USE: arm64 elibc_glibc kernel_linux pcre
+MTIME: 1727854736
+REPO: gentoo
+
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=dev-build/automake-1.16.5:1.16 >=dev-build/autoconf-2.71-r5 >=dev-build/libtool-2.4.7
 BUILD_ID: 1
 BUILD_TIME: 1696856235
@@ -7867,6 +7936,29 @@ SIZE: 50680
 SLOT: 0/4
 USE: arm64 elibc_glibc kernel_linux
 MTIME: 1688501814
+REPO: gentoo
+
+BDEPEND: virtual/pkgconfig
+BUILD_ID: 2
+BUILD_TIME: 1727854765
+CPV: dev-libs/libatasmart-0.19_p5
+DEFINED_PHASES: compile configure install prepare
+DEPEND: virtual/libudev:0/1=
+EAPI: 7
+IUSE: static-libs
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86
+LICENSE: LGPL-2.1
+MD5: d5f5365455f5be5e208a0d354be83eb4
+PATH: dev-libs/libatasmart/libatasmart-0.19_p5-2.gpkg.tar
+PROVIDES: arm_64: libatasmart.so.4
+RDEPEND: virtual/libudev:0/1= >=sys-libs/glibc-2.40
+REPO_REVISIONS: {"gentoo": "cf3583470396ae6dd0399bcd5b55ec0e8f83c785"}
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libudev.so.1
+SHA1: 2272c07c5723dc9d14db5b270332de95d66f608d
+SIZE: 61440
+SLOT: 0/4
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854766
 REPO: gentoo
 
 BUILD_ID: 1
@@ -9998,6 +10090,28 @@ USE: arm64 elibc_glibc kernel_linux nls
 MTIME: 1707546029
 REPO: gentoo
 
+BDEPEND: dev-lang/perl
+BUILD_ID: 1
+BUILD_TIME: 1727854743
+CPV: dev-libs/snowball-stemmer-2.2.0
+DEFINED_PHASES: compile install test
+EAPI: 8
+IUSE: static-libs test
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~ppc-macos
+LICENSE: BSD
+MD5: 807e0e1f76b06a26065484f36783864c
+PATH: dev-libs/snowball-stemmer/snowball-stemmer-2.2.0-1.gpkg.tar
+PROVIDES: arm_64: libstemmer.so.2
+RDEPEND: >=sys-libs/glibc-2.40
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6
+RESTRICT: test
+SHA1: f2db323bb9a7bd8059cddb0d619106403a145a96
+SIZE: 276480
+SLOT: 0/2
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854747
+REPO: gentoo
+
 BDEPEND: virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.20.5
 BUILD_ID: 1
 BUILD_TIME: 1707605882
@@ -10392,6 +10506,25 @@ SHA1: c04129d17b3042764be518c22cbf7e9cf94c648b
 SIZE: 26124
 USE: arm64 elibc_glibc kernel_linux
 MTIME: 1707541125
+REPO: gentoo
+
+BDEPEND: virtual/perl-ExtUtils-MakeMaker >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+BUILD_ID: 4
+BUILD_TIME: 1727854731
+CPV: dev-perl/Canary-Stability-2013.0.0
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+EAPI: 7
+IUSE: perl_features_debug perl_features_ithreads perl_features_quadmath
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: || ( Artistic GPL-1+ )
+MD5: fbe8e369c52910eb10692b6fb4014518
+PATH: dev-perl/Canary-Stability/Canary-Stability-2013.0.0-4.gpkg.tar
+RDEPEND: >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath] dev-lang/perl:0/5.40=
+SHA1: c595b3921b6f03c3e5209c6743cfcb5d16586d0d
+SIZE: 30720
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854733
 REPO: gentoo
 
 BDEPEND: virtual/perl-ExtUtils-MakeMaker dev-lang/perl
@@ -13082,6 +13215,26 @@ USE: arm64 elibc_glibc kernel_linux
 MTIME: 1707541285
 REPO: gentoo
 
+BDEPEND: !<net-fs/samba-4.10.6 virtual/perl-ExtUtils-MakeMaker >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+BUILD_ID: 4
+BUILD_TIME: 1727854725
+CPV: dev-perl/Parse-Yapp-1.210.0-r1
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+EAPI: 8
+IUSE: perl_features_debug perl_features_ithreads perl_features_quadmath test examples
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE: || ( Artistic GPL-1+ )
+MD5: d7d46356d3e9d70ce67c5f001dcf540a
+PATH: dev-perl/Parse-Yapp/Parse-Yapp-1.210.0-r1-4.gpkg.tar
+RDEPEND: !<net-fs/samba-4.10.6 >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath] dev-lang/perl:0/5.40=
+RESTRICT: test
+SHA1: e75014ff3d26d7bb7d0e9b1c827f87f1df34fdef
+SIZE: 133120
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854727
+REPO: gentoo
+
 BDEPEND: virtual/perl-File-Spec virtual/perl-ExtUtils-MakeMaker dev-lang/perl
 BUILD_ID: 1
 BUILD_TIME: 1693074541
@@ -14838,6 +14991,25 @@ USE: arm64 elibc_glibc kernel_linux
 MTIME: 1707541123
 REPO: gentoo
 
+BDEPEND: virtual/perl-ExtUtils-MakeMaker >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+BUILD_ID: 4
+BUILD_TIME: 1727854723
+CPV: dev-perl/common-sense-3.750.0
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+EAPI: 7
+IUSE: perl_features_debug perl_features_ithreads perl_features_quadmath
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: || ( Artistic GPL-1+ )
+MD5: d40d64ff8c32f87e38945375a721b6fe
+PATH: dev-perl/common-sense/common-sense-3.750.0-4.gpkg.tar
+RDEPEND: >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath] dev-lang/perl:0/5.40=
+SHA1: 3ec60dcb91998769b5ded045120f4af6be07f1fe
+SIZE: 51200
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854724
+REPO: gentoo
+
 BDEPEND: virtual/perl-Digest-MD5 >=virtual/perl-Encode-2.120.0 dev-perl/Encode-Locale >=dev-perl/File-Listing-6.0.0 >=dev-perl/HTML-Parser-3.340.0 >=dev-perl/HTTP-Cookies-6.0.0 >=dev-perl/HTTP-Date-6.0.0 >=dev-perl/HTTP-Negotiate-6.0.0 >=dev-perl/HTTP-Message-6.70.0 virtual/perl-IO >=dev-perl/LWP-MediaTypes-6.0.0 >=virtual/perl-MIME-Base64-2.100.0 >=virtual/perl-libnet-2.580.0 >=dev-perl/Net-HTTP-6.180.0 virtual/perl-Scalar-List-Utils dev-perl/Try-Tiny >=dev-perl/URI-1.100.0 >=dev-perl/WWW-RobotRules-6.0.0 >=virtual/perl-parent-0.217.0 >=virtual/perl-CPAN-Meta-Requirements-2.120.620 virtual/perl-ExtUtils-MakeMaker virtual/perl-Getopt-Long virtual/perl-Module-Metadata dev-lang/perl
 BUILD_ID: 1
 BUILD_TIME: 1688249627
@@ -15099,6 +15271,28 @@ SHA1: 3fab531ff199693ae93b49824f80fda443c0959d
 SIZE: 151134
 USE: arm64 elibc_glibc kernel_linux python_targets_python3_11
 MTIME: 1707558704
+REPO: gentoo
+
+BDEPEND: dev-python/setuptools[python_targets_python3_12(-)] >=virtual/rust-1.56.0 dev-lang/python:3.12[threads(+)] >=dev-python/gpep517-15[python_targets_python3_12(-)] >=dev-util/maturin-1.4.0[python_targets_python3_12(-)]
+BUILD_ID: 1
+BUILD_TIME: 1727854761
+CPV: dev-python/cryptography-43.0.1
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: >=dev-libs/openssl-1.0.2o-r6:0/3= >=dev-python/cffi-1.8:0/1.17.1=[python_targets_python3_12(-)] dev-lang/python:3.12[threads(+)]
+EAPI: 8
+IUSE: test debug python_targets_pypy3 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 debug
+KEYWORDS: ~amd64 ~arm ~arm64 ~loong ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86
+LICENSE: || ( Apache-2.0 BSD ) PSF-2 Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD MIT Unicode-DFS-2016
+MD5: 87863d0cd683500c34d5f5e61da25573
+PATH: dev-python/cryptography/cryptography-43.0.1-1.gpkg.tar
+PROVIDES: arm_64: _rust.abi3.so
+RDEPEND: >=dev-libs/openssl-1.0.2o-r6:0/3= >=dev-python/cffi-1.8:0/1.17.1=[python_targets_python3_12(-)] dev-lang/python:3.12[threads(+)] >=sys-libs/glibc-2.40
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libcrypto.so.3 libgcc_s.so.1 libssl.so.3
+RESTRICT: test
+SHA1: 39be16b401cdf8d11c3e8c20a5e94916dfdae574
+SIZE: 1341440
+USE: arm64 elibc_glibc kernel_linux python_targets_python3_12
+MTIME: 1727854762
 REPO: gentoo
 
 BDEPEND: >=dev-lang/python-3.11.3:3.11[threads(+)] >=dev-python/gpep517-13[python_targets_python3_11(-)] >=dev-python/setuptools-67.7.2[python_targets_python3_11(-)] >=dev-python/wheel-0.40.0[python_targets_python3_11(-)]
@@ -22525,6 +22719,27 @@ USE: arm64 elibc_glibc kernel_linux
 MTIME: 1712405298
 REPO: gentoo
 
+BDEPEND: >=app-portage/elt-patches-20240116
+BUILD_ID: 3
+BUILD_TIME: 1727854715
+CPV: media-libs/fdk-aac-2.0.3
+DEFINED_PHASES: compile configure install postinst prepare test
+EAPI: 8
+IUSE: examples abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: amd64 arm arm64 ~loong ~mips ppc ppc64 ~riscv x86 ~x64-macos
+LICENSE: FraunhoferFDK
+MD5: 421aea73a0025e4f4fa99b313dc82b75
+PATH: media-libs/fdk-aac/fdk-aac-2.0.3-3.gpkg.tar
+PROVIDES: arm_64: libfdk-aac.so.2
+RDEPEND: >=sys-libs/glibc-2.40
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6
+SHA1: f8f8b76c1a66d843944ac3d7e7f6f1a2d51bb2db
+SIZE: 849920
+SLOT: 0/2
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854716
+REPO: gentoo
+
 BDEPEND: app-arch/xz-utils sys-devel/gettext virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1688264623
@@ -29504,6 +29719,25 @@ USE: arm64 elibc_glibc kernel_linux nls readline
 MTIME: 1707546737
 REPO: gentoo
 
+BUILD_ID: 1
+BUILD_TIME: 1727854764
+CPV: sys-apps/gptfdisk-1.0.10-r1
+DEFINED_PHASES: install prepare
+DEPEND: dev-libs/popt sys-libs/ncurses:0/6=[unicode(+)] sys-apps/util-linux virtual/pkgconfig
+EAPI: 8
+IUSE: ncurses static
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc ~x86 ~amd64-linux ~x86-linux
+LICENSE: GPL-2
+MD5: 2adadf635074af280ae86b552563d399
+PATH: sys-apps/gptfdisk/gptfdisk-1.0.10-r1-1.gpkg.tar
+RDEPEND: dev-libs/popt sys-libs/ncurses:0/6=[unicode(+)] sys-apps/util-linux >=sys-libs/glibc-2.40
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libgcc_s.so.1 libm.so.6 libncursesw.so.6 libpopt.so.0 libstdc++.so.6 libtinfow.so.6 libuuid.so.1
+SHA1: a0489cf19563debef1cb39d59a7af54e9689b32a
+SIZE: 266240
+USE: arm64 elibc_glibc kernel_linux ncurses
+MTIME: 1727854764
+REPO: gentoo
+
 BDEPEND: dev-lang/perl sys-apps/texinfo
 BUILD_ID: 1
 BUILD_TIME: 1688220158
@@ -36131,6 +36365,25 @@ USE: arm64 elibc_glibc kernel_linux
 MTIME: 1707465991
 REPO: gentoo
 
+BDEPEND: >=app-portage/elt-patches-20240116 virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1727854759
+CPV: x11-apps/xauth-1.1.3
+DEFINED_PHASES: compile configure install postinst postrm prepare unpack
+DEPEND: x11-libs/libX11 x11-libs/libXau x11-libs/libXext x11-libs/libXmu x11-base/xorg-proto
+EAPI: 8
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux
+LICENSE: MIT
+MD5: 8f5711d7c3bdfd2dc7946c866c363fb4
+PATH: x11-apps/xauth/xauth-1.1.3-1.gpkg.tar
+RDEPEND: x11-libs/libX11 x11-libs/libXau x11-libs/libXext x11-libs/libXmu >=sys-libs/glibc-2.40
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libX11.so.6 libXau.so.6 libXext.so.6 libXmuu.so.1 libc.so.6
+SHA1: c2aae1c4c9d15acefebe9abe7ef92479741da2c0
+SIZE: 81920
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854760
+REPO: gentoo
+
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=dev-build/automake-1.16.5:1.16 >=dev-build/autoconf-2.71-r5 >=dev-build/libtool-2.4.7 virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1688506911
@@ -36148,6 +36401,25 @@ SHA1: 42a063e07eee896ef93e015921d04e0ac39adc37
 SIZE: 46351
 USE: arm64 elibc_glibc kernel_linux
 MTIME: 1707466020
+REPO: gentoo
+
+BDEPEND: >=app-portage/elt-patches-20240116 virtual/pkgconfig
+BUILD_ID: 2
+BUILD_TIME: 1727854763
+CPV: x11-apps/xhost-1.0.9
+DEFINED_PHASES: compile configure install postinst postrm prepare unpack
+DEPEND: x11-libs/libX11 x11-libs/libXmu x11-libs/libXau x11-base/xorg-proto
+EAPI: 8
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-solaris
+LICENSE: MIT
+MD5: 35634e1f5cbda9668382b2be7041b01a
+PATH: x11-apps/xhost/xhost-1.0.9-2.gpkg.tar
+RDEPEND: x11-libs/libX11 x11-libs/libXmu x11-libs/libXau >=sys-libs/glibc-2.40
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libX11.so.6 libXmuu.so.1 libc.so.6
+SHA1: 186650fd827a438f896af2a3133eac9fcd0b9e3b
+SIZE: 51200
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1727854764
 REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=dev-build/automake-1.16.5:1.16 >=dev-build/autoconf-2.71-r5 >=dev-build/libtool-2.4.7 virtual/pkgconfig
@@ -38875,7 +39147,6 @@ MD5: 4515a030f735bf13eb0d4741719baa67
 PATH: x11-libs/startup-notification/startup-notification-0.12-r2-2.gpkg.tar
 PROVIDES: arm_64: libstartup-notification-1.so.0
 RDEPEND: >=x11-libs/libX11-1.4.3 >x11-libs/libxcb-1.6 >=x11-libs/xcb-util-0.3.8 >=sys-libs/glibc-2.40
-REPO_REVISIONS: {"gentoo": "cf3583470396ae6dd0399bcd5b55ec0e8f83c785"}
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libX11-xcb.so.1 libc.so.6 libxcb-util.so.1 libxcb.so.1
 RESTRICT: test
 SHA1: 00f412e25c402a48f7d68d85168c771121b1e821
