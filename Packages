@@ -12,10 +12,10 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 2382
+PACKAGES: 2383
 PROFILE: default/linux/arm64/23.0/desktop/gnome/systemd
 REPO_REVISIONS: {"gentoo": "cf3583470396ae6dd0399bcd5b55ec0e8f83c785"}
-TIMESTAMP: 1728072902
+TIMESTAMP: 1728073024
 USE: X a52 aac acl acpi ada_target_gcc_12 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias arm64 bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord cpu_flags_arm_edsp cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 crypt cups dbus dri dts dvdr eds elibc_glibc encode evo exif flac gdbm gif gnome gnome-keyring gnome-online-accounts gnome-shell gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gstreamer gtk gui guile_single_target_3-0 guile_targets_3-0 iconv icu input_devices_libinput introspection ipv6 jpeg kernel_linux keyring kf6compat lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg nautilus ncurses networkmanager nls office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf pgo php_targets_php8-2 png policykit postgres_targets_postgres15 ppds pulseaudio python_single_target_python3_12 python_targets_python3_12 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_mips qemu_user_targets_mips64 qemu_user_targets_mips64el qemu_user_targets_mipsel qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qt5 qt6 readline ruby_targets_ruby31 ruby_targets_ruby32 sdl seccomp sound spell ssl startup-notification svg sysprof systemd test-rust tiff tracker truetype udev udisks unicode upower usb video_cards_freedreno video_cards_lima video_cards_panfrost video_cards_v3d video_cards_vc4 video_cards_virgl video_cards_vivante vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 ABI_X86 CPU_FLAGS_PPC CPU_FLAGS_X86 ELIBC KERNEL
@@ -6456,6 +6456,30 @@ SIZE: 2536936
 SLOT: 0/133
 USE: arm64 boost cairo cjk cxx elibc_glibc introspection jpeg jpeg2k kernel_linux lcms nss png qt5 tiff utils
 MTIME: 1707605824
+REPO: gentoo
+
+BDEPEND: >=dev-util/glib-utils-2.64 virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.20.5
+BUILD_ID: 1
+BUILD_TIME: 1728073022
+CPV: app-text/poppler-24.09.0
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: >=media-libs/fontconfig-2.13 >=media-libs/freetype-2.10 sys-libs/zlib >=dev-libs/glib-2.64:2 >=x11-libs/cairo-1.16 >=dev-libs/gobject-introspection-1.72:0/0= >=media-libs/libjpeg-turbo-1.1.0:0/0.2= >=media-libs/openjpeg-2.3.0-r1:2/7= media-libs/lcms:2 >=dev-libs/nss-3.49 media-libs/libpng:0/16= >=dev-qt/qtcore-5.15.2:5 >=dev-qt/qtgui-5.15.2:5 >=dev-qt/qtxml-5.15.2:5 dev-qt/qtbase:6[gui,xml] media-libs/tiff:0/6= >=dev-libs/boost-1.74
+EAPI: 8
+IUSE: boost cairo cjk curl +cxx debug doc gpgme +introspection +jpeg +jpeg2k +lcms nss png qt5 qt6 test tiff +utils verify-sig
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: GPL-2
+MD5: c59ac6a4aa4ddd2bae172e5dd1f34ff2
+PATH: app-text/poppler/poppler-24.09.0-1.gpkg.tar
+PROVIDES: arm_64: libpoppler-cpp.so.1 libpoppler-glib.so.8 libpoppler-qt5.so.1 libpoppler-qt6.so.3 libpoppler.so.141
+RDEPEND: >=media-libs/fontconfig-2.13 >=media-libs/freetype-2.10 sys-libs/zlib >=dev-libs/glib-2.64:2 >=x11-libs/cairo-1.16 >=dev-libs/gobject-introspection-1.72:0/0= >=media-libs/libjpeg-turbo-1.1.0:0/0.2= >=media-libs/openjpeg-2.3.0-r1:2/7= media-libs/lcms:2 >=dev-libs/nss-3.49 media-libs/libpng:0/16= >=dev-qt/qtcore-5.15.2:5 >=dev-qt/qtgui-5.15.2:5 >=dev-qt/qtxml-5.15.2:5 dev-qt/qtbase:6[gui,xml] media-libs/tiff:0/6= app-text/poppler-data >=sys-libs/glibc-2.40
+REPO_REVISIONS: {"gentoo": "cf3583470396ae6dd0399bcd5b55ec0e8f83c785"}
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libQt5Core.so.5 libQt5Gui.so.5 libQt5Xml.so.5 libQt6Core.so.6 libQt6Gui.so.6 libc.so.6 libcairo.so.2 libfontconfig.so.1 libfreetype.so.6 libgcc_s.so.1 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libjpeg.so.62 liblcms2.so.2 libm.so.6 libnspr4.so libnss3.so libopenjp2.so.7 libplc4.so libpng16.so.16 libsmime3.so libstdc++.so.6 libtiff.so.6 libz.so.1
+RESTRICT: test
+SHA1: 7b748e3e99fda352adc52d3d5d21ff9d6942942b
+SIZE: 2826240
+SLOT: 0/141
+USE: arm64 boost cairo cjk cxx elibc_glibc introspection jpeg jpeg2k kernel_linux lcms nss png qt5 qt6 tiff utils
+MTIME: 1728073024
 REPO: gentoo
 
 BUILD_ID: 1
@@ -24879,7 +24903,6 @@ LICENSE: GPL-2+
 MD5: d2da2c7ebcd84de52b786295b8d97463
 PATH: gnome-extra/nm-applet/nm-applet-1.36.0-1.gpkg.tar
 RDEPEND: >=dev-libs/glib-2.40:2 >=app-crypt/libsecret-0.18 >=net-libs/libnma-1.10.4-r2 >=x11-libs/gtk+-3.10:3 >=net-misc/networkmanager-1.46[modemmanager] net-misc/modemmanager virtual/freedesktop-icon-theme >=sys-libs/glibc-2.40
-REPO_REVISIONS: {"gentoo": "cf3583470396ae6dd0399bcd5b55ec0e8f83c785"}
 REQUIRES: arm_64: ld-linux-aarch64.so.1 libatk-1.0.so.0 libc.so.6 libcairo.so.2 libgdk-3.so.0 libgdk_pixbuf-2.0.so.0 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgtk-3.so.0 libmm-glib.so.0 libnm.so.0 libnma.so.0 libpango-1.0.so.0 libpangocairo-1.0.so.0 libsecret-1.so.0
 SHA1: 1b92aa7af98debc858f9ac79c6b2444fde537e45
 SIZE: 1320960
