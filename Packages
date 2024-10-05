@@ -12,10 +12,10 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 2408
+PACKAGES: 2411
 PROFILE: default/linux/arm64/23.0/desktop/gnome/systemd
 REPO_REVISIONS: {"gentoo": "cf3583470396ae6dd0399bcd5b55ec0e8f83c785"}
-TIMESTAMP: 1728088789
+TIMESTAMP: 1728088886
 USE: X a52 aac acl acpi ada_target_gcc_12 alsa apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias arm64 bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cjk collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord cpu_flags_arm_edsp cpu_flags_arm_v8 cpu_flags_arm_vfp cpu_flags_arm_vfp-d32 cpu_flags_arm_vfpv3 cpu_flags_arm_vfpv4 crypt cups dbus dri dts dvdr eds elibc_glibc encode evo exif flac gdbm gif gnome gnome-keyring gnome-online-accounts gnome-shell gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gstreamer gtk gui guile_single_target_3-0 guile_targets_3-0 iconv icu input_devices_libinput introspection ipv6 jpeg kernel_linux keyring kf6compat lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg nautilus ncurses networkmanager nls office_implementation_libreoffice ogg opengl openmp pam pango pcre pdf pgo php_targets_php8-2 png policykit postgres_targets_postgres15 ppds pulseaudio python_single_target_python3_12 python_targets_python3_12 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_mips qemu_user_targets_mips64 qemu_user_targets_mips64el qemu_user_targets_mipsel qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qt5 qt6 readline ruby_targets_ruby31 ruby_targets_ruby32 sdl seccomp sound spell ssl startup-notification svg sysprof systemd test-rust tiff tracker truetype udev udisks unicode upower usb video_cards_freedreno video_cards_lima video_cards_panfrost video_cards_v3d video_cards_vc4 video_cards_virgl video_cards_vivante vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 ABI_X86 CPU_FLAGS_PPC CPU_FLAGS_X86 ELIBC KERNEL
@@ -8547,6 +8547,26 @@ SIZE: 2849023
 SLOT: 0.56
 USE: arm64 elibc_glibc kernel_linux
 MTIME: 1693081490
+REPO: gentoo
+
+BDEPEND: >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1728088879
+CPV: dev-libs/aml-0.3.0
+DEFINED_PHASES: compile configure install prepare test
+EAPI: 8
+IUSE: examples
+KEYWORDS: amd64 arm arm64 ~ia64 ~loong ~ppc ppc64 ~riscv x86
+LICENSE: ISC
+MD5: dc22efddd4607e37707ede775b1272e7
+PATH: dev-libs/aml/aml-0.3.0-1.gpkg.tar
+PROVIDES: arm_64: libaml.so.0
+RDEPEND: >=sys-libs/glibc-2.40
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6
+SHA1: 26ae6243eaa3a51ef47d8edbff0099ad24ee8135
+SIZE: 51200
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1728088880
 REPO: gentoo
 
 BDEPEND: dev-libs/appstream-glib dev-libs/libxslt dev-util/itstool >=sys-devel/gettext-0.19.8 >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
@@ -24308,7 +24328,6 @@ MD5: e0153e437a93bcb1a0df64c4ff165188
 PATH: gnome-base/gnome-light/gnome-light-45.2-1.gpkg.tar
 PDEPEND: >=gnome-base/gvfs-1.52.1
 RDEPEND: >=gnome-base/gnome-core-libs-45.2[cups] >=gnome-base/gnome-session-45.0 >=gnome-base/gnome-settings-daemon-45.0[cups] >=gnome-base/gnome-control-center-45.1[cups] >=gnome-base/nautilus-45.2 >=x11-wm/mutter-45.2 >=dev-libs/gjs-1.78.1 >=gnome-base/gnome-shell-45.2 >=media-fonts/cantarell-0.303.1 >=x11-themes/adwaita-icon-theme-45.0 >=x11-themes/gnome-backgrounds-45.0 || ( >=x11-terms/gnome-terminal-3.50.1 >=gui-apps/gnome-console-45.0 )
-REPO_REVISIONS: {"gentoo": "cf3583470396ae6dd0399bcd5b55ec0e8f83c785"}
 SHA1: 93883c313211a999a5d9445dbca5f549a48b9d26
 SIZE: 20480
 SLOT: 2.0
@@ -44497,6 +44516,26 @@ USE: arm64 elibc_glibc kernel_linux
 MTIME: 1707622876
 REPO: gentoo
 
+BDEPEND: >=app-portage/elt-patches-20240116 virtual/pkgconfig
+BUILD_ID: 3
+BUILD_TIME: 1728088884
+CPV: x11-drivers/xf86-input-libinput-1.4.0
+DEFINED_PHASES: compile configure install postinst postrm prepare pretend setup unpack
+DEPEND: >=dev-libs/libinput-1.23.0:0/10= >=x11-base/xorg-proto-2021.5 x11-base/xorg-proto >=x11-base/xorg-server-1.20[xorg]
+EAPI: 8
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~ia64 ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86
+LICENSE: MIT
+MD5: d85093a28aea7550cb9b11661306b09a
+PATH: x11-drivers/xf86-input-libinput/xf86-input-libinput-1.4.0-3.gpkg.tar
+PROVIDES: arm_64: libinput_drv.so
+RDEPEND: >=dev-libs/libinput-1.23.0:0/10= x11-base/xorg-server:0/21.1.13= >=x11-base/xorg-server-1.20[xorg] >=sys-libs/glibc-2.40
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6 libinput.so.10
+SHA1: b31f4aae011ee3921579d771bb00094426ae3467
+SIZE: 92160
+USE: arm64 elibc_glibc kernel_linux
+MTIME: 1728088885
+REPO: gentoo
+
 BDEPEND: virtual/pkgconfig >=dev-build/meson-0.62.2 >=dev-build/ninja-1.8.2 dev-build/meson-format-array
 BUILD_ID: 1
 BUILD_TIME: 1688264840
@@ -46250,6 +46289,28 @@ SHA1: 8b547180bdccb220daccd2b00fb60c236880f3c2
 SIZE: 235520
 USE: arm64 elibc_glibc kernel_linux udev
 MTIME: 1712387094
+REPO: gentoo
+
+BDEPEND: || ( dev-lang/python:3.13 dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) || ( ( dev-lang/python:3.13 dev-python/docutils[python_targets_python3_13(-)] ) ( dev-lang/python:3.12 dev-python/docutils[python_targets_python3_12(-)] ) ( dev-lang/python:3.11 dev-python/docutils[python_targets_python3_11(-)] ) ( dev-lang/python:3.10 dev-python/docutils[python_targets_python3_10(-)] ) ) >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1728088884
+CPV: x11-libs/libdrm-2.4.123
+DEFINED_PHASES: compile configure install prepare setup test
+EAPI: 8
+IUSE: video_cards_amdgpu video_cards_exynos video_cards_freedreno video_cards_intel video_cards_nouveau video_cards_omap video_cards_radeon video_cards_tegra video_cards_vc4 video_cards_vivante video_cards_vmware test tools udev valgrind abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux
+LICENSE: MIT
+MD5: 1091a2457a7bae80572ed699d92241ec
+PATH: x11-libs/libdrm/libdrm-2.4.123-1.gpkg.tar
+PROVIDES: arm_64: libdrm.so.2 libdrm_etnaviv.so.1 libdrm_freedreno.so.1
+RDEPEND: virtual/udev >=sys-libs/glibc-2.40
+REPO_REVISIONS: {"gentoo": "cf3583470396ae6dd0399bcd5b55ec0e8f83c785"}
+REQUIRES: arm_64: ld-linux-aarch64.so.1 libc.so.6
+RESTRICT: test
+SHA1: 1b50efff4016f07fe065350e18213433a5662d36
+SIZE: 276480
+USE: arm64 elibc_glibc kernel_linux udev video_cards_freedreno video_cards_vc4 video_cards_vivante
+MTIME: 1728088885
 REPO: gentoo
 
 BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20170815 >=dev-build/automake-1.16.5:1.16 >=dev-build/autoconf-2.71-r5 >=dev-build/libtool-2.4.7 virtual/pkgconfig
