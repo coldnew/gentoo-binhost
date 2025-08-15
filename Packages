@@ -12,10 +12,10 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 124
+PACKAGES: 127
 PROFILE: default/linux/amd64/23.0/desktop/systemd
 REPO_REVISIONS: {"gentoo": "cc57521e93a557c902c185b1b1fe28dfd9ade0f4"}
-TIMESTAMP: 1755268183
+TIMESTAMP: 1755268290
 USE: X a52 aac abi_x86_64 acl acpi ada_target_gcc_14 alsa amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias avahi bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cet cjk collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cups dbus device-mapper dri dts dvd dvdr egl elibc_glibc emacs encode exif flac gdbm geolocation gif gles gles2 gpm gps gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_navcom gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox grub_platforms_efi-64 grub_platforms_pc gtk gtk-doc gtk3 gui guile_single_target_3-0 guile_targets_3-0 ibus iconv icu input_devices_libinput introspection ipv6 jit jpeg kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg mtp multilib ncurses networkmanager nls office_implementation_libreoffice ogg opencl opengl openmp pam pango pcre pdf php_targets_php8-3 pipewire png policykit postgres_targets_postgres17 ppds python_single_target_python3_13 python_targets_python3_13 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_mips qemu_user_targets_mips64 qemu_user_targets_mips64el qemu_user_targets_mipsel qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qml qt5 qt6 readline ruby_targets_ruby32 ruby_targets_ruby33 samba sdl seccomp sound spell ssl startup-notification svg systemd test-rust tiff truetype udev udisks unicode upower usb v4l vaapi vala video_cards_amdgpu video_cards_d3d12 video_cards_i915 video_cards_i965 video_cards_intel video_cards_nvidia video_cards_vesa video_cards_virgl video_cards_vmware vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid xwayland zeroconf zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 CPU_FLAGS_ARM CPU_FLAGS_PPC ELIBC KERNEL
@@ -791,6 +791,53 @@ SIZE: 2273280
 SLOT: 3
 USE: abi_x86_64 amd64 elibc_glibc icu kernel_linux readline
 MTIME: 1755262713
+REPO: gentoo
+
+BDEPEND: dev-build/autoconf-archive app-alternatives/awk virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20250306 || ( >=dev-build/automake-1.18:1.18 >=dev-build/automake-1.17-r1:1.17 ) >=dev-build/autoconf-2.72-r1:2.72
+BUILD_ID: 1
+BUILD_TIME: 1755268256
+CPV: dev-lang/python-3.13.5_p1
+DEFINED_PHASES: compile configure install prepare pretend setup test unpack
+DEPEND: app-arch/bzip2:0/1= app-arch/xz-utils:0/0= app-crypt/libb2 app-misc/mime-types >=dev-libs/expat-2.1:0/0= dev-libs/libffi:0/8= dev-libs/mpdecimal:4/4= dev-python/gentoo-common >=sys-libs/zlib-1.1.3:0/1= virtual/libintl sys-libs/gdbm:0/6=[berkdb] sys-apps/util-linux:0/0= >=sys-libs/ncurses-5.2:0/6= >=sys-libs/readline-4.1:0/8= >=dev-db/sqlite-3.3.8:3/3= >=dev-libs/openssl-1.1.1:0/3= net-wireless/bluez
+EAPI: 8
+IUSE: bluetooth debug +ensurepip examples gdbm jit libedit +ncurses pgo +readline +sqlite +ssl test tk valgrind +llvm_slot_18 verify-sig
+KEYWORDS: ~alpha amd64 ~arm arm64 ~hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 ~sparc x86
+LICENSE: PSF-2
+MD5: 75727399a15af339d537292832c3895c
+PATH: dev-lang/python/python-3.13.5_p1-1.gpkg.tar
+PDEPEND: dev-python/ensurepip-pip
+PROVIDES: x86_64: _asyncio.cpython-313-x86_64-linux-gnu.so _bisect.cpython-313-x86_64-linux-gnu.so _blake2.cpython-313-x86_64-linux-gnu.so _bz2.cpython-313-x86_64-linux-gnu.so _codecs_cn.cpython-313-x86_64-linux-gnu.so _codecs_hk.cpython-313-x86_64-linux-gnu.so _codecs_iso2022.cpython-313-x86_64-linux-gnu.so _codecs_jp.cpython-313-x86_64-linux-gnu.so _codecs_kr.cpython-313-x86_64-linux-gnu.so _codecs_tw.cpython-313-x86_64-linux-gnu.so _contextvars.cpython-313-x86_64-linux-gnu.so _csv.cpython-313-x86_64-linux-gnu.so _ctypes.cpython-313-x86_64-linux-gnu.so _ctypes_test.cpython-313-x86_64-linux-gnu.so _curses.cpython-313-x86_64-linux-gnu.so _curses_panel.cpython-313-x86_64-linux-gnu.so _datetime.cpython-313-x86_64-linux-gnu.so _dbm.cpython-313-x86_64-linux-gnu.so _decimal.cpython-313-x86_64-linux-gnu.so _elementtree.cpython-313-x86_64-linux-gnu.so _gdbm.cpython-313-x86_64-linux-gnu.so _hashlib.cpython-313-x86_64-linux-gnu.so _heapq.cpython-313-x86_64-linux-gnu.so _interpchannels.cpython-313-x86_64-linux-gnu.so _interpqueues.cpython-313-x86_64-linux-gnu.so _interpreters.cpython-313-x86_64-linux-gnu.so _json.cpython-313-x86_64-linux-gnu.so _lsprof.cpython-313-x86_64-linux-gnu.so _lzma.cpython-313-x86_64-linux-gnu.so _md5.cpython-313-x86_64-linux-gnu.so _multibytecodec.cpython-313-x86_64-linux-gnu.so _multiprocessing.cpython-313-x86_64-linux-gnu.so _opcode.cpython-313-x86_64-linux-gnu.so _pickle.cpython-313-x86_64-linux-gnu.so _posixshmem.cpython-313-x86_64-linux-gnu.so _posixsubprocess.cpython-313-x86_64-linux-gnu.so _queue.cpython-313-x86_64-linux-gnu.so _random.cpython-313-x86_64-linux-gnu.so _sha1.cpython-313-x86_64-linux-gnu.so _sha2.cpython-313-x86_64-linux-gnu.so _sha3.cpython-313-x86_64-linux-gnu.so _socket.cpython-313-x86_64-linux-gnu.so _sqlite3.cpython-313-x86_64-linux-gnu.so _ssl.cpython-313-x86_64-linux-gnu.so _statistics.cpython-313-x86_64-linux-gnu.so _struct.cpython-313-x86_64-linux-gnu.so _testbuffer.cpython-313-x86_64-linux-gnu.so _testcapi.cpython-313-x86_64-linux-gnu.so _testclinic.cpython-313-x86_64-linux-gnu.so _testclinic_limited.cpython-313-x86_64-linux-gnu.so _testexternalinspection.cpython-313-x86_64-linux-gnu.so _testimportmultiple.cpython-313-x86_64-linux-gnu.so _testinternalcapi.cpython-313-x86_64-linux-gnu.so _testlimitedcapi.cpython-313-x86_64-linux-gnu.so _testmultiphase.cpython-313-x86_64-linux-gnu.so _testsinglephase.cpython-313-x86_64-linux-gnu.so _uuid.cpython-313-x86_64-linux-gnu.so _xxtestfuzz.cpython-313-x86_64-linux-gnu.so _zoneinfo.cpython-313-x86_64-linux-gnu.so array.cpython-313-x86_64-linux-gnu.so binascii.cpython-313-x86_64-linux-gnu.so cmath.cpython-313-x86_64-linux-gnu.so fcntl.cpython-313-x86_64-linux-gnu.so grp.cpython-313-x86_64-linux-gnu.so libpython3.13.so.1.0 math.cpython-313-x86_64-linux-gnu.so mmap.cpython-313-x86_64-linux-gnu.so pyexpat.cpython-313-x86_64-linux-gnu.so readline.cpython-313-x86_64-linux-gnu.so resource.cpython-313-x86_64-linux-gnu.so select.cpython-313-x86_64-linux-gnu.so syslog.cpython-313-x86_64-linux-gnu.so termios.cpython-313-x86_64-linux-gnu.so unicodedata.cpython-313-x86_64-linux-gnu.so xxlimited.cpython-313-x86_64-linux-gnu.so xxlimited_35.cpython-313-x86_64-linux-gnu.so xxsubtype.cpython-313-x86_64-linux-gnu.so zlib.cpython-313-x86_64-linux-gnu.so
+RDEPEND: app-arch/bzip2:0/1= app-arch/xz-utils:0/0= app-crypt/libb2 app-misc/mime-types >=dev-libs/expat-2.1:0/0= dev-libs/libffi:0/8= dev-libs/mpdecimal:4/4= dev-python/gentoo-common >=sys-libs/zlib-1.1.3:0/1= virtual/libintl sys-libs/gdbm:0/6=[berkdb] sys-apps/util-linux:0/0= >=sys-libs/ncurses-5.2:0/6= >=sys-libs/readline-4.1:0/8= >=dev-db/sqlite-3.3.8:3/3= >=dev-libs/openssl-1.1.1:0/3= dev-lang/python-exec[python_targets_python3_13(-)] >=sys-libs/glibc-2.41-r5
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libb2.so.1 libbz2.so.1 libc.so.6 libcrypto.so.3 libexpat.so.1 libffi.so.8 libgdbm.so.6 libgdbm_compat.so.4 liblzma.so.5 libm.so.6 libmpdec.so.4 libncursesw.so.6 libpanelw.so.6 libreadline.so.8 libsqlite3.so.0 libssl.so.3 libtinfow.so.6 libuuid.so.1 libz.so.1
+RESTRICT: test
+SHA1: f0d72d2f8ba564f08a155065cea6e4c68b195d5a
+SIZE: 11816960
+SLOT: 3.13
+USE: abi_x86_64 amd64 bluetooth elibc_glibc ensurepip gdbm kernel_linux llvm_slot_18 ncurses readline sqlite ssl
+MTIME: 1755268257
+REPO: gentoo
+
+BDEPEND: >=dev-build/b2-5.1.0
+BUILD_ID: 1
+BUILD_TIME: 1755268260
+CPV: dev-libs/boost-1.88.0-r1
+DEFINED_PHASES: compile configure install postinst preinst prepare setup test
+DEPEND: app-arch/bzip2:0/1=[abi_x86_64(-)] dev-libs/icu:0/77=[abi_x86_64(-)] sys-libs/zlib:0/1=[abi_x86_64(-)]
+EAPI: 8
+IUSE: bzip2 +context debug doc icu lzma +nls mpi numpy python +stacktrace test test-full tools zlib zstd python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: Boost-1.0
+MD5: e216a943d30d94144fb1d2f8fbf63235
+PATH: dev-libs/boost/boost-1.88.0-r1-1.gpkg.tar
+PROVIDES: x86_64: libboost_atomic.so.1.88.0 libboost_charconv.so.1.88.0 libboost_chrono.so.1.88.0 libboost_container.so.1.88.0 libboost_context.so.1.88.0 libboost_contract.so.1.88.0 libboost_coroutine.so.1.88.0 libboost_date_time.so.1.88.0 libboost_fiber.so.1.88.0 libboost_filesystem.so.1.88.0 libboost_graph.so.1.88.0 libboost_iostreams.so.1.88.0 libboost_json.so.1.88.0 libboost_locale.so.1.88.0 libboost_log.so.1.88.0 libboost_log_setup.so.1.88.0 libboost_math_c99.so.1.88.0 libboost_math_c99f.so.1.88.0 libboost_math_c99l.so.1.88.0 libboost_math_tr1.so.1.88.0 libboost_math_tr1f.so.1.88.0 libboost_math_tr1l.so.1.88.0 libboost_nowide.so.1.88.0 libboost_prg_exec_monitor.so.1.88.0 libboost_process.so.1.88.0 libboost_program_options.so.1.88.0 libboost_random.so.1.88.0 libboost_regex.so.1.88.0 libboost_serialization.so.1.88.0 libboost_stacktrace_addr2line.so.1.88.0 libboost_stacktrace_basic.so.1.88.0 libboost_stacktrace_noop.so.1.88.0 libboost_system.so.1.88.0 libboost_thread.so.1.88.0 libboost_timer.so.1.88.0 libboost_type_erasure.so.1.88.0 libboost_unit_test_framework.so.1.88.0 libboost_url.so.1.88.0 libboost_wave.so.1.88.0 libboost_wserialization.so.1.88.0
+RDEPEND: app-arch/bzip2:0/1=[abi_x86_64(-)] dev-libs/icu:0/77=[abi_x86_64(-)] sys-libs/zlib:0/1=[abi_x86_64(-)] >=sys-libs/glibc-2.41-r5
+REQUIRES: x86_64: ld-linux-x86-64.so.2 libbz2.so.1 libc.so.6 libgcc_s.so.1 libicudata.so.77 libicui18n.so.77 libicuuc.so.77 libm.so.6 libstdc++.so.6 libz.so.1
+RESTRICT: test
+SHA1: b163e1caae1028c5e37aba023fcf59a3c52d9766
+SIZE: 18790400
+SLOT: 0/1.88.0
+USE: abi_x86_64 amd64 bzip2 context elibc_glibc icu kernel_linux nls python_targets_python3_13 stacktrace zlib
+MTIME: 1755268271
 REPO: gentoo
 
 BUILD_ID: 1
@@ -2159,7 +2206,6 @@ MD5: 0113b937efa3343ffaa5528713cdc700
 PATH: net-wireless/bluez/bluez-5.83-1.gpkg.tar
 PROVIDES: x86_64: libbluetooth.so.3
 RDEPEND: >=dev-libs/glib-2.36:2[abi_x86_64(-)] >=sys-apps/dbus-1.6:0/0= net-print/cups:0/0= >=dev-libs/ell-0.39 >=dev-libs/json-c-0.13:0/5.1= sys-libs/readline:0/8= dev-libs/libical:0/3= sys-libs/readline:0/8= sys-apps/systemd >=virtual/udev-196 >=sys-libs/glibc-2.41-r5
-REPO_REVISIONS: {"gentoo": "cc57521e93a557c902c185b1b1fe28dfd9ade0f4"}
 REQUIRES: x86_64: libc.so.6 libdbus-1.so.3 libell.so.0 libglib-2.0.so.0 libicalvcal.so.3 libjson-c.so.5 libreadline.so.8 libsystemd.so.0 libudev.so.1
 RESTRICT: test
 SHA1: 2e8f027ff8c0b35cffbfc3d547939313e65c0381
@@ -2349,6 +2395,29 @@ SHA1: 562461a8f93937c0ace53a3164f15dafd5906ff7
 SIZE: 20480
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1755267142
+REPO: gentoo
+
+BDEPEND: || ( dev-lang/python:3.13 dev-lang/python:3.12 dev-lang/python:3.11 ) virtual/pkgconfig dev-util/gtk-doc >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1755268289
+CPV: x11-libs/cairo-1.18.4-r1
+DEFINED_PHASES: compile configure install setup test
+DEPEND: >=media-libs/fontconfig-2.13.92[abi_x86_64(-)] >=media-libs/freetype-2.13:2[png,abi_x86_64(-)] >=media-libs/libpng-1.6.10:0/16=[abi_x86_64(-)] >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)] >=x11-libs/pixman-0.42.3[abi_x86_64(-)] >=dev-libs/glib-2.34.3:2[abi_x86_64(-)] >=x11-libs/libXrender-0.9.8[abi_x86_64(-)] >=x11-libs/libXext-1.3.2[abi_x86_64(-)] >=x11-libs/libX11-1.6.2[abi_x86_64(-)] >=x11-libs/libxcb-1.9.1:0/1.12=[abi_x86_64(-)] x11-base/xorg-proto
+EAPI: 8
+IUSE: X aqua debug +glib gtk-doc lzo test abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: || ( LGPL-2.1 MPL-1.1 )
+MD5: ba529c7d5bd9bcf8c91cd3d5e7d9b72b
+PATH: x11-libs/cairo/cairo-1.18.4-r1-1.gpkg.tar
+PROVIDES: x86_64: libcairo-fdr.so libcairo-gobject.so.2 libcairo-script-interpreter.so.2 libcairo-trace.so libcairo.so.2
+RDEPEND: >=media-libs/fontconfig-2.13.92[abi_x86_64(-)] >=media-libs/freetype-2.13:2[png,abi_x86_64(-)] >=media-libs/libpng-1.6.10:0/16=[abi_x86_64(-)] >=sys-libs/zlib-1.2.8-r1[abi_x86_64(-)] >=x11-libs/pixman-0.42.3[abi_x86_64(-)] >=dev-libs/glib-2.34.3:2[abi_x86_64(-)] >=x11-libs/libXrender-0.9.8[abi_x86_64(-)] >=x11-libs/libXext-1.3.2[abi_x86_64(-)] >=x11-libs/libX11-1.6.2[abi_x86_64(-)] >=x11-libs/libxcb-1.9.1:0/1.12=[abi_x86_64(-)] >=sys-libs/glibc-2.41-r5
+REPO_REVISIONS: {"gentoo": "cc57521e93a557c902c185b1b1fe28dfd9ade0f4"}
+REQUIRES: x86_64: libX11.so.6 libXext.so.6 libXrender.so.1 libc.so.6 libfontconfig.so.1 libfreetype.so.6 libglib-2.0.so.0 libgobject-2.0.so.0 libm.so.6 libpixman-1.so.0 libpng16.so.16 libxcb-render.so.0 libxcb-shm.so.0 libxcb.so.1 libz.so.1
+RESTRICT: test test
+SHA1: 073405f94d257167821330ab5223d46a5cf238cd
+SIZE: 1208320
+USE: X abi_x86_64 amd64 elibc_glibc glib gtk-doc kernel_linux
+MTIME: 1755268290
 REPO: gentoo
 
 BDEPEND: app-text/docbook-xml-dtd:4.1.2 app-text/docbook-xsl-stylesheets dev-libs/gobject-introspection-common dev-libs/libxslt >=dev-util/gdbus-codegen-2.48 dev-util/glib-utils >=dev-build/gtk-doc-am-1.20 dev-util/wayland-scanner >=sys-devel/gettext-0.19.7 virtual/pkgconfig x11-libs/gdk-pixbuf:2 >=app-portage/elt-patches-20250306 app-arch/xz-utils >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
