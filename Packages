@@ -12,10 +12,10 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 458
+PACKAGES: 461
 PROFILE: default/linux/amd64/23.0/desktop/systemd
 REPO_REVISIONS: {"gentoo": "cc57521e93a557c902c185b1b1fe28dfd9ade0f4"}
-TIMESTAMP: 1755318153
+TIMESTAMP: 1755318290
 USE: X a52 aac abi_x86_64 acl acpi ada_target_gcc_14 alsa amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias avahi bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cet cjk collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cuda cups dbus device-mapper dri dts dvd dvdr egl elibc_glibc emacs encode exif flac gdbm geolocation gif gles gles2 gpm gps gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_navcom gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox grub_platforms_efi-64 grub_platforms_pc gtk gtk-doc gtk3 gui guile_single_target_3-0 guile_targets_3-0 ibus iconv icu input_devices_libinput introspection ipv6 jit jpeg kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg mtp multilib ncurses networkmanager nls nvenc office_implementation_libreoffice ogg opencl opengl openmp pam pango pcre pdf php_targets_php8-3 pipewire png policykit postgres_targets_postgres17 ppds python_single_target_python3_13 python_targets_python3_13 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_mips qemu_user_targets_mips64 qemu_user_targets_mips64el qemu_user_targets_mipsel qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qml qt5 qt6 readline ruby_targets_ruby32 ruby_targets_ruby33 samba sdl seccomp sound spell ssl startup-notification svg systemd test-rust tiff truetype udev udisks unicode upower usb v4l vaapi vala video_cards_amdgpu video_cards_d3d12 video_cards_i915 video_cards_i965 video_cards_intel video_cards_nvidia video_cards_vesa video_cards_virgl video_cards_vmware vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid xwayland zeroconf zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 CPU_FLAGS_ARM CPU_FLAGS_PPC ELIBC KERNEL
@@ -2920,6 +2920,26 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1755317804
 REPO: gentoo
 
+BDEPEND: >=virtual/perl-Digest-MD5-2.0.0 >=virtual/perl-Digest-SHA-1.0.0 virtual/perl-ExtUtils-MakeMaker >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+BUILD_ID: 1
+BUILD_TIME: 1755318204
+CPV: dev-perl/Digest-HMAC-1.50.0
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
+EAPI: 8
+IUSE: perl_features_debug perl_features_ithreads perl_features_quadmath test
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: || ( Artistic GPL-1+ )
+MD5: ae32e45a6d075a0cbac0225c6f0fa5b0
+PATH: dev-perl/Digest-HMAC/Digest-HMAC-1.50.0-1.gpkg.tar
+RDEPEND: >=virtual/perl-Digest-MD5-2.0.0 >=virtual/perl-Digest-SHA-1.0.0 >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath] dev-lang/perl:0/5.40=
+RESTRICT: test
+SHA1: aec7cef64eeca01795965dc1e733be5df9e33545
+SIZE: 30720
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1755318205
+REPO: gentoo
+
 BDEPEND: >=dev-perl/Module-Build-0.280.0 virtual/perl-ExtUtils-MakeMaker >=dev-lang/perl-5.38.2-r3[-perl_features_debug,-perl_features_ithreads,-perl_features_quadmath]
 BUILD_ID: 1
 BUILD_TIME: 1755317822
@@ -4061,6 +4081,27 @@ SHA1: 0d61ba3e8ff7bbe8380226859359ed2042011f91
 SIZE: 501760
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_single_target_python3_13
 MTIME: 1755269504
+REPO: gentoo
+
+BDEPEND: sys-devel/gnuconfig >=app-portage/elt-patches-20250306 || ( >=dev-build/automake-1.18:1.18 >=dev-build/automake-1.17-r1:1.17 ) >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/libtool-2.4.7-r3
+BUILD_ID: 1
+BUILD_TIME: 1755318289
+CPV: dev-util/ragel-7.0.4-r3
+DEFINED_PHASES: configure install prepare
+DEPEND: >=dev-util/colm-0.14.7-r1
+EAPI: 8
+IUSE: doc
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE: MIT
+MD5: 525a9aafeb2b794f1f1e2ce69d0cf2ad
+PATH: dev-util/ragel/ragel-7.0.4-r3-1.gpkg.tar
+PROVIDES: x86_64: libragel.so.0
+RDEPEND: >=dev-util/colm-0.14.7-r1 >=sys-libs/glibc-2.41-r5
+REQUIRES: x86_64: libc.so.6 libcolm-0.14.7.so libfsm-0.14.7.so libgcc_s.so.1 libstdc++.so.6
+SHA1: 16d6d065daa0747a578705bcb83acf97b2c3fdbb
+SIZE: 1177600
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1755318290
 REPO: gentoo
 
 BUILD_ID: 1
@@ -6726,6 +6767,29 @@ USE: X abi_x86_64 alsa amd64 bzip2 dav1d drm dvd elibc_glibc fontconfig gnutls g
 MTIME: 1755299325
 REPO: gentoo
 
+BDEPEND: app-alternatives/awk virtual/pkgconfig || ( dev-lang/nasm dev-lang/yasm ) dev-lang/perl
+BUILD_ID: 2
+BUILD_TIME: 1755318289
+CPV: media-video/ffmpeg-7.1.1-r2
+DEFINED_PHASES: compile configure install prepare pretend setup test unpack
+DEPEND: virtual/libiconv[abi_x86_64(-)] x11-libs/libX11[abi_x86_64(-)] x11-libs/libXext[abi_x86_64(-)] x11-libs/libXv[abi_x86_64(-)] x11-libs/libxcb:0/1.12=[abi_x86_64(-)] media-libs/alsa-lib[abi_x86_64(-)] app-arch/bzip2[abi_x86_64(-)] media-libs/dav1d:0/7=[abi_x86_64(-)] media-libs/libdvdnav[abi_x86_64(-)] media-libs/libdvdread:0/8=[abi_x86_64(-)] x11-libs/libdrm[abi_x86_64(-)] media-libs/fontconfig[abi_x86_64(-)] net-libs/gnutls:0/30.30=[abi_x86_64(-)] media-libs/lcms:2[abi_x86_64(-)] media-libs/libass:0/9=[abi_x86_64(-)] virtual/opencl[abi_x86_64(-)] media-libs/libglvnd[X,abi_x86_64(-)] net-fs/samba:0/0=[client,abi_x86_64(-)] media-libs/libsdl2[sound(+),video(+),abi_x86_64(-)] dev-libs/glib:2[abi_x86_64(-)] >=gnome-base/librsvg-2.52:2[abi_x86_64(-)] x11-libs/cairo[abi_x86_64(-)] media-libs/freetype:2[abi_x86_64(-)] media-libs/harfbuzz:0/6.0.0=[abi_x86_64(-)] media-libs/libv4l[abi_x86_64(-)] media-libs/libva:0/2=[X,abi_x86_64(-)] media-libs/libvorbis[abi_x86_64(-)] media-libs/vulkan-loader[abi_x86_64(-)] media-libs/x264:0/164=[abi_x86_64(-)] dev-libs/libxml2:2/2=[abi_x86_64(-)] media-libs/xvid[abi_x86_64(-)] sys-libs/zlib[abi_x86_64(-)] x11-base/xorg-proto >=sys-kernel/linux-headers-6 >=media-libs/nv-codec-headers-12.1.14.0 dev-util/opencl-headers dev-util/vulkan-headers
+EAPI: 8
+IUSE: X alsa amf amrenc amr appkit bluray bs2b bzip2 cdio chromaprint codec2 cuda +dav1d doc +drm dvd fdk flite +fontconfig frei0r fribidi gcrypt gme gmp +gnutls +gpl gsm iec61883 ieee1394 jack jpeg2k jpegxl kvazaar ladspa lame lcms libaom libaribb24 +libass libcaca libilbc liblc3 libplacebo librtmp libsoxr libtesseract lv2 lzma modplug npp nvenc openal opencl opengl openh264 openmpt openssl opus +postproc pulseaudio qrcode qsv quirc rabbitmq rav1e rubberband samba sdl shaderc snappy sndio speex srt ssh svg svt-av1 theora +truetype twolame v4l vaapi vdpau vidstab vmaf vorbis vpx vulkan webp x264 x265 +xml xvid zeromq zimg +zlib zvbi chromium soc abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 verify-sig
+KEYWORDS: amd64 arm arm64 ~hppa ~loong ~mips ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~x64-macos
+LICENSE: GPL-2+ GPL-3+
+MD5: 65670797ca453fea8329e53f5dad67ea
+PATH: media-video/ffmpeg/ffmpeg-7.1.1-r2-2.gpkg.tar
+PROVIDES: x86_64: libavcodec.so.61 libavdevice.so.61 libavfilter.so.10 libavformat.so.61 libavutil.so.59 libpostproc.so.58 libswresample.so.5 libswscale.so.8
+RDEPEND: virtual/libiconv[abi_x86_64(-)] x11-libs/libX11[abi_x86_64(-)] x11-libs/libXext[abi_x86_64(-)] x11-libs/libXv[abi_x86_64(-)] x11-libs/libxcb:0/1.12=[abi_x86_64(-)] media-libs/alsa-lib[abi_x86_64(-)] app-arch/bzip2[abi_x86_64(-)] media-libs/dav1d:0/7=[abi_x86_64(-)] media-libs/libdvdnav[abi_x86_64(-)] media-libs/libdvdread:0/8=[abi_x86_64(-)] x11-libs/libdrm[abi_x86_64(-)] media-libs/fontconfig[abi_x86_64(-)] net-libs/gnutls:0/30.30=[abi_x86_64(-)] media-libs/lcms:2[abi_x86_64(-)] media-libs/libass:0/9=[abi_x86_64(-)] virtual/opencl[abi_x86_64(-)] media-libs/libglvnd[X,abi_x86_64(-)] net-fs/samba:0/0=[client,abi_x86_64(-)] media-libs/libsdl2[sound(+),video(+),abi_x86_64(-)] dev-libs/glib:2[abi_x86_64(-)] >=gnome-base/librsvg-2.52:2[abi_x86_64(-)] x11-libs/cairo[abi_x86_64(-)] media-libs/freetype:2[abi_x86_64(-)] media-libs/harfbuzz:0/6.0.0=[abi_x86_64(-)] media-libs/libv4l[abi_x86_64(-)] media-libs/libva:0/2=[X,abi_x86_64(-)] media-libs/libvorbis[abi_x86_64(-)] media-libs/vulkan-loader[abi_x86_64(-)] media-libs/x264:0/164=[abi_x86_64(-)] dev-libs/libxml2:2/2=[abi_x86_64(-)] media-libs/xvid[abi_x86_64(-)] sys-libs/zlib[abi_x86_64(-)] >=sys-libs/glibc-2.41-r5
+REPO_REVISIONS: {"gentoo": "cc57521e93a557c902c185b1b1fe28dfd9ade0f4"}
+REQUIRES: x86_64: libGL.so.1 libOpenCL.so.1 libSDL2-2.0.so.0 libX11.so.6 libXext.so.6 libXv.so.1 libasound.so.2 libass.so.9 libbz2.so.1 libc.so.6 libcairo.so.2 libdav1d.so.7 libdrm.so.2 libdvdnav.so.4 libdvdread.so.8 libfontconfig.so.1 libfreetype.so.6 libglib-2.0.so.0 libgnutls.so.30 libgobject-2.0.so.0 libharfbuzz.so.0 liblcms2.so.2 libm.so.6 librsvg-2.so.2 libsmbclient.so.0 libv4l2.so.0 libva-drm.so.2 libva-x11.so.2 libva.so.2 libvorbis.so.0 libvorbisenc.so.2 libx264.so.164 libxcb-shape.so.0 libxcb-shm.so.0 libxcb-xfixes.so.0 libxcb.so.1 libxml2.so.2 libxvidcore.so.4 libz.so.1
+SHA1: e862953850b52894fb8f03205df6811416ee3ea7
+SIZE: 12564480
+SLOT: 0/59.61.61
+USE: X abi_x86_64 alsa amd64 bzip2 dav1d drm dvd elibc_glibc fontconfig gnutls gpl kernel_linux lcms libass nvenc opencl opengl postproc samba sdl svg truetype v4l vaapi vorbis vulkan x264 xml xvid zlib
+MTIME: 1755318290
+REPO: gentoo
+
 BDEPEND: >=dev-build/meson-0.59 virtual/pkgconfig dev-util/gdbus-codegen >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array virtual/pkgconfig virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1755299162
@@ -8512,7 +8576,6 @@ KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390
 MD5: 7692a0eb22b30f8e1d974527daf955a2
 PATH: virtual/linux-sources/linux-sources-3-r8-1.gpkg.tar
 RDEPEND: || ( sys-kernel/gentoo-sources sys-kernel/vanilla-sources sys-kernel/git-sources sys-kernel/mips-sources sys-kernel/pf-sources sys-kernel/rt-sources sys-kernel/zen-sources sys-kernel/raspberrypi-sources sys-kernel/gentoo-kernel sys-kernel/gentoo-kernel-bin sys-kernel/vanilla-kernel sys-kernel/linux-next sys-kernel/asahi-sources )
-REPO_REVISIONS: {"gentoo": "cc57521e93a557c902c185b1b1fe28dfd9ade0f4"}
 SHA1: 8ba5b617f054b294580dd966685a1195e497f7ff
 SIZE: 10240
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
