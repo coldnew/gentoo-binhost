@@ -12,10 +12,10 @@ FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-mul
 GENTOO_MIRRORS: http://distfiles.gentoo.org
 IUSE_IMPLICIT: abi_x86_64 prefix prefix-guest prefix-stack
 KERNEL: linux
-PACKAGES: 534
+PACKAGES: 542
 PROFILE: default/linux/amd64/23.0/desktop/systemd
 REPO_REVISIONS: {"gentoo": "cc57521e93a557c902c185b1b1fe28dfd9ade0f4"}
-TIMESTAMP: 1755322205
+TIMESTAMP: 1755322279
 USE: X a52 aac abi_x86_64 acl acpi ada_target_gcc_14 alsa amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias avahi bluetooth branding bzip2 cairo calligra_features_karbon calligra_features_sheets calligra_features_words cdda cdr cet cjk collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 crypt cuda cups dbus device-mapper dri dts dvd dvdr egl elibc_glibc emacs encode exif flac gdbm geolocation gif gles gles2 gpm gps gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_greis gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_navcom gpsd_protocols_oceanserver gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox grub_platforms_efi-64 grub_platforms_pc gtk gtk-doc gtk3 gui guile_single_target_3-0 guile_targets_3-0 ibus iconv icu input_devices_libinput introspection ipv6 jit jpeg kernel_linux lcd_devices_bayrad lcd_devices_cfontz lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_text lcms libnotify libtirpc llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Mips llvm_targets_NVPTX llvm_targets_RISCV llvm_targets_WebAssembly llvm_targets_X86 lto lua_single_target_lua5-1 lua_targets_lua5-1 mad mng mp3 mp4 mpeg mtp multilib ncurses networkmanager nls nvenc office_implementation_libreoffice ogg opencl opengl openmp pam pango pcre pdf php_targets_php8-3 pipewire png policykit postgres_targets_postgres17 ppds python_single_target_python3_13 python_targets_python3_13 qemu_softmmu_targets_aarch64 qemu_softmmu_targets_aarch64_be qemu_softmmu_targets_arm qemu_softmmu_targets_armeb qemu_softmmu_targets_avr qemu_softmmu_targets_i386 qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_nios2 qemu_softmmu_targets_or1k qemu_softmmu_targets_riscv32 qemu_softmmu_targets_riscv64 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_aarch64_be qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_avr qemu_user_targets_i386 qemu_user_targets_mips qemu_user_targets_mips64 qemu_user_targets_mips64el qemu_user_targets_mipsel qemu_user_targets_nios2 qemu_user_targets_or1k qemu_user_targets_riscv32 qemu_user_targets_riscv64 qemu_user_targets_x86_64 qml qt5 qt6 readline ruby_targets_ruby32 ruby_targets_ruby33 samba sdl seccomp sound spell ssl startup-notification svg systemd test-rust tiff truetype udev udisks unicode upower usb v4l vaapi vala video_cards_amdgpu video_cards_d3d12 video_cards_i915 video_cards_i965 video_cards_intel video_cards_nvidia video_cards_vesa video_cards_virgl video_cards_vmware vim vim-syntax vorbis vulkan wayland wxwidgets x264 xattr xcb xft xml xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_proto xtables_addons_psd xtables_addons_quota2 xtables_addons_sysrq xtables_addons_tarpit xv xvid xwayland zeroconf zlib
 USE_EXPAND: ABI_MIPS ABI_S390 ABI_X86 ADA_TARGET ALSA_CARDS AMDGPU_TARGETS APACHE2_MODULES APACHE2_MPMS CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_PPC CPU_FLAGS_X86 CURL_QUIC CURL_SSL ELIBC FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS GUILE_SINGLE_TARGET GUILE_TARGETS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LLVM_SLOT LLVM_TARGETS LUA_SINGLE_TARGET LUA_TARGETS NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PERL_FEATURES PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS RUBY_TARGETS SANE_BACKENDS UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XTABLES_ADDONS
 USE_EXPAND_HIDDEN: ABI_MIPS ABI_S390 CPU_FLAGS_ARM CPU_FLAGS_PPC ELIBC KERNEL
@@ -2393,6 +2393,26 @@ USE: abi_x86_64 amd64 elibc_glibc gtk-doc introspection kernel_linux nls
 MTIME: 1755294377
 REPO: gentoo
 
+BUILD_ID: 1
+BUILD_TIME: 1755322267
+CPV: dev-libs/libaio-0.3.113-r1
+DEFINED_PHASES: compile configure install prepare test
+EAPI: 8
+IUSE: static-libs test abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
+KEYWORDS: ~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux
+LICENSE: LGPL-2
+MD5: 36f9ba228466b30fe20b562096d9a988
+PATH: dev-libs/libaio/libaio-0.3.113-r1-1.gpkg.tar
+PROVIDES: x86_64: libaio.so.1
+RDEPEND: >=sys-libs/glibc-2.41-r5
+REQUIRES: x86_64: libc.so.6
+RESTRICT: test
+SHA1: b0902628ee450b92cf7e7891fa41da7cad228bae
+SIZE: 51200
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1755322268
+REPO: gentoo
+
 BDEPEND: virtual/pkgconfig
 BUILD_ID: 1
 BUILD_TIME: 1755269007
@@ -3819,7 +3839,6 @@ LICENSE: MIT
 MD5: 9bc839f4dbd75afb418d653870e86429
 PATH: dev-python/pyparsing/pyparsing-3.2.3-1.gpkg.tar
 RDEPEND: dev-lang/python:3.13
-REPO_REVISIONS: {"gentoo": "cc57521e93a557c902c185b1b1fe28dfd9ade0f4"}
 RESTRICT: test
 SHA1: 30a6f45bebb3da90ac856e66d25cf1284b65c779
 SIZE: 399360
@@ -5156,6 +5175,28 @@ SHA1: aca88edfe50a4321d82b467b517d8f36285687f2
 SIZE: 81920
 USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1755267113
+REPO: gentoo
+
+BDEPEND: dev-libs/libxslt dev-util/glib-utils sys-devel/flex sys-devel/bison virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20250306 || ( >=dev-build/automake-1.18:1.18 >=dev-build/automake-1.17-r1:1.17 ) >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/libtool-2.4.7-r3 virtual/pkgconfig
+BUILD_ID: 1
+BUILD_TIME: 1755322266
+CPV: dev-util/ostree-2024.3-r2
+DEFINED_PHASES: configure install postinst prepare
+DEPEND: app-arch/xz-utils dev-libs/glib:2 sys-fs/fuse:3/4= sys-libs/zlib net-misc/curl app-crypt/gpgme:1/11.6.15.2= dev-libs/libgpg-error dev-libs/gobject-introspection net-libs/libsoup:3.0 dev-libs/openssl:0/3= sys-apps/systemd:0/2= net-dns/avahi[dbus] app-text/docbook-xml-dtd:4.2 app-text/docbook-xsl-stylesheets
+EAPI: 8
+IUSE: archive +curl doc dracut gnutls +gpg grub +http2 introspection libmount selinux sodium ssl +soup systemd zeroconf
+KEYWORDS: amd64 arm arm64 ~loong ~ppc64 ~riscv x86
+LICENSE: LGPL-2+
+MD5: 729c27a1a73664233aa3b075c320ed32
+PATH: dev-util/ostree/ostree-2024.3-r2-1.gpkg.tar
+PROVIDES: x86_64: libostree-1.so.1
+RDEPEND: app-arch/xz-utils dev-libs/glib:2 sys-fs/fuse:3/4= sys-libs/zlib net-misc/curl app-crypt/gpgme:1/11.6.15.2= dev-libs/libgpg-error dev-libs/gobject-introspection net-libs/libsoup:3.0 dev-libs/openssl:0/3= sys-apps/systemd:0/2= net-dns/avahi[dbus] virtual/tmpfiles >=sys-libs/glibc-2.41-r5
+REQUIRES: x86_64: libavahi-client.so.3 libavahi-common.so.3 libavahi-glib.so.1 libc.so.6 libcrypto.so.3 libcurl.so.4 libfuse3.so.4 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgpg-error.so.0 libgpgme.so.11 liblzma.so.5 libsystemd.so.0 libz.so.1
+RESTRICT: test
+SHA1: 115cae0e761ccd423dbefaa473bf9f8d542bcb83
+SIZE: 890880
+USE: abi_x86_64 amd64 curl elibc_glibc gpg http2 introspection kernel_linux soup ssl systemd zeroconf
+MTIME: 1755322267
 REPO: gentoo
 
 BDEPEND: app-alternatives/ninja >=dev-build/cmake-3.20.5
@@ -8495,6 +8536,27 @@ USE: abi_x86_64 amd64 elibc_glibc gtk-doc kernel_linux
 MTIME: 1755299038
 REPO: gentoo
 
+BDEPEND: >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1755322277
+CPV: net-libs/libslirp-4.7.0
+DEFINED_PHASES: compile configure install prepare test
+DEPEND: dev-libs/glib:2/2=
+EAPI: 7
+IUSE: static-libs valgrind
+KEYWORDS: amd64 arm64 ~loong ~m68k ~ppc ppc64 ~riscv x86
+LICENSE: BSD
+MD5: 65d3d5e7fb7e20945dd50a56d3e75a57
+PATH: net-libs/libslirp/libslirp-4.7.0-1.gpkg.tar
+PROVIDES: x86_64: libslirp.so.0
+RDEPEND: dev-libs/glib:2/2= >=sys-libs/glibc-2.41-r5
+REQUIRES: x86_64: libc.so.6 libglib-2.0.so.0
+SHA1: 6d3e226783dbcac3b2b7439ea3927e6065756eee
+SIZE: 112640
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1755322278
+REPO: gentoo
+
 BDEPEND: dev-libs/glib dev-util/glib-utils >=dev-util/gi-docgen-2021.1 app-text/docbook-xml-dtd:4.1.2 >=sys-devel/gettext-0.19.8 virtual/pkgconfig dev-lang/vala:0.56 app-arch/xz-utils >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
 BUILD_ID: 1
 BUILD_TIME: 1755298373
@@ -9057,6 +9119,28 @@ USE: abi_x86_64 amd64 elibc_glibc kernel_linux
 MTIME: 1755269385
 REPO: gentoo
 
+BDEPEND: app-alternatives/yacc app-alternatives/lex virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+BUILD_ID: 1
+BUILD_TIME: 1755322278
+CPV: sys-apps/dtc-1.7.2-r2
+DEFINED_PHASES: compile configure install setup test
+EAPI: 8
+IUSE: python static-libs test yaml python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+KEYWORDS: ~alpha amd64 arm arm64 ~hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 ~sparc x86
+LICENSE: GPL-2
+MD5: a0ccec14d221f8e6491743ecb81d4ac5
+PATH: sys-apps/dtc/dtc-1.7.2-r2-1.gpkg.tar
+PROVIDES: x86_64: libfdt.so.1
+RDEPEND: >=sys-libs/glibc-2.41-r5
+REPO_REVISIONS: {"gentoo": "cc57521e93a557c902c185b1b1fe28dfd9ade0f4"}
+REQUIRES: x86_64: libc.so.6
+RESTRICT: test
+SHA1: deb5531e425e57afeac27b3c32193d29e3e0c72b
+SIZE: 184320
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_single_target_python3_13
+MTIME: 1755322278
+REPO: gentoo
+
 BUILD_ID: 1
 BUILD_TIME: 1755269030
 CPV: sys-apps/gptfdisk-1.0.10-r1
@@ -9388,6 +9472,71 @@ SHA1: cc922213f221d806a583731a57f99821db0f8173
 SIZE: 3594240
 USE: abi_x86_64 acl amd64 cxx elibc_glibc emacs kernel_linux ncurses nls openmp xattr
 MTIME: 1755266209
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1755322267
+CPV: sys-firmware/edk2-bin-202202
+DEFINED_PHASES: install postinst setup unpack
+EAPI: 8
+IUSE: secureboot
+KEYWORDS: amd64 arm64 ~loong ~ppc ppc64 ~riscv x86
+LICENSE: BSD-2-with-patent MIT
+MD5: f2695cf3ecc5bd290c4444fe2d602a34
+PATH: sys-firmware/edk2-bin/edk2-bin-202202-1.gpkg.tar
+RDEPEND: !sys-firmware/edk2
+SHA1: 2d29a12aa9fc2037cd1766db234df7afe120e564
+SIZE: 2744320
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1755322268
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1755322267
+CPV: sys-firmware/ipxe-1.21.1
+DEFINED_PHASES: compile configure install postinst
+EAPI: 7
+IUSE: +binary uefi ipv6 iso lkrn +qemu undi usb vmware savedconfig
+KEYWORDS: ~alpha amd64 ~arm arm64 ~hppa ~loong ~mips ~ppc ppc64 ~riscv x86
+LICENSE: GPL-2
+MD5: 5beec5ed01ce8c1d7e84823edcec18bc
+PATH: sys-firmware/ipxe/ipxe-1.21.1-1.gpkg.tar
+SHA1: f4d5d5b372a4eb361322ec6489a1fcd8e53365fc
+SIZE: 860160
+USE: abi_x86_64 amd64 binary elibc_glibc ipv6 kernel_linux qemu usb
+MTIME: 1755322268
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1755322271
+CPV: sys-firmware/seabios-bin-1.16.3
+DEFINED_PHASES: install unpack
+EAPI: 8
+KEYWORDS: ~alpha amd64 ~arm arm64 ~hppa ~loong ~m68k ~mips ~ppc ppc64 ~riscv ~s390 ~sparc x86
+LICENSE: LGPL-3 GPL-3
+MD5: c683bfd6d459dd4988d122fae6b3d592
+PATH: sys-firmware/seabios-bin/seabios-bin-1.16.3-1.gpkg.tar
+RDEPEND: !sys-firmware/seabios
+SHA1: 913a71af2792c935dd8150f270d1cafee88d49eb
+SIZE: 153600
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux
+MTIME: 1755322272
+REPO: gentoo
+
+BUILD_ID: 1
+BUILD_TIME: 1755322267
+CPV: sys-firmware/sgabios-0.1_pre10
+DEFINED_PHASES: compile install
+EAPI: 7
+IUSE: +binary
+KEYWORDS: ~alpha amd64 ~arm arm64 ~hppa ~loong ~m68k ~mips ~ppc ppc64 ~riscv ~s390 ~sparc x86
+LICENSE: Apache-2.0
+MD5: 171bd2333b4c1d2571db03bd72b2bf38
+PATH: sys-firmware/sgabios/sgabios-0.1_pre10-1.gpkg.tar
+SHA1: 3800b08a63ff672eba4bfdd1a7480c4c18934632
+SIZE: 20480
+USE: abi_x86_64 amd64 binary elibc_glibc kernel_linux
+MTIME: 1755322268
 REPO: gentoo
 
 BDEPEND: virtual/pkgconfig
